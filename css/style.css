@@ -62,3 +62,51 @@ table a:visited {
 .section-referencias {
   font-size: 90%;
 }
+
+nav.repo {
+  float: right;
+}
+
+.repo a,
+.repo a:visited,
+.repo a:active {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.repo a:hover {
+  color: #555;
+}
+
+nav {
+  display: flex;
+  width: 80vw;
+  justify-content: flex-start;
+  margin-bottom: 1vw;
+  margin-top: 0.7vw;
+}
+
+nav a {
+  margin-right: 2vw;
+  color: #555;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+i.nota {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.situacao {
+  min-width: 30vw;
+  max-width: 40vw;
+}
+
+.dispositivo {
+  min-width: 30vw;
+  max-width: 40vw;
+}

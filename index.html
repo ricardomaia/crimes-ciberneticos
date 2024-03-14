@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crimes Cibernéticos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="//cdn.datatables.net/2.0.2/js/dataTables.min.js"> </script>
+
+</head>
+
+<body class="ui-dark-theme">
+    <div id="root">
+        <h1>Crimes Cibernéticos</h1>
+        <header>
+            <nav>
+                <a href="#root">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#creditos">Créditos</a>
+                <a href="#referencias">Referências</a>
+                <span class="repo"><a href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank"><i
+                            class="fa-brands fa-github"></i> GitHub</a></span>
+
+            </nav>
+        </header>
+
+
+        <table id="myTable" class="display">
+            <thead>
+                <tr>
+                    <th>Situação / Palavras-Chave</th>
+                    <th>Dispositivo Legal (possível tipificação / indício)</th>
+                    <th>Tipo</th>
+                    <th>Aspecto da Segurança</th>
+                    <th>Âmbito</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <a id="sobre" <h2>Sobre</h2></a>
+    <p>
+        Projeto colaborativo para auxiliar Equipes de Resposta a Incidentes na identificação de possíveis Crimes
+        Cibernéticos.
+    </p>
+
+    <a id="creditos" <h2>Créditos</h2></a>
+    <p><b>Organização:</b> Ricardo de Souza Maia <a href="https://www.linkedin.com/in/ricardomaia/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a> <a href="https://github.com/ricardomaia" target="_blank"><i
+                class="fa-brands fa-github"></i></a></p>
+
+    <a id="referencias" <h2>Referências</h2></a>
+
+    <div class="section-referencias">
+        <p><a id="ref1">1</a> - ANDRADE, Thiago Laurenço Lawinsky de; NOVAES, Jackson. DIREITO À INFORMAÇÃO X DIREITO À
+            INTIMIDADE: uma análise à
+            luz da regulamentação do direito frente às novas tecnologias. Revista Ibero-Americana de Humanidades,
+            Ciências e
+            Educação, [S.L.], v. 9, n. 5, p. 2982-3004, 31 maio 2023. Revista Ibero-Americana de Humanidades, Ciencias e
+            Educacao. <a href="http://dx.doi.org/10.51891/rease.v9i5.10076"
+                target="_blank">http://dx.doi.org/10.51891/rease.v9i5.10076</a>.
+        </p>
+
+        <p><a id="ref2">2</a>
+            - Análise jurídica do cryptojacking : uso não autorizado do dispositivo de terceiros para a mineração de
+            criptomoedas. <a href="https://hdl.handle.net/1884/82790"
+                target="_blank">https://hdl.handle.net/1884/82790</a>
+        </p>
+
+
+        <p><a id="ref3">3</a>
+            - Ataques DoS e DDoS: anotações em face do ordenamento jurídico penal brasileiro. <a
+                href="https://www.jusbrasil.com.br/artigos/ataques-dos-e-ddos-anotacoes-em-face-do-ordenamento-juridico-penal-brasileiro/229897612"
+                target="_blank">https://www.jusbrasil.com.br/artigos/ataques-dos-e-ddos-anotacoes-em-face-do-ordenamento-juridico-penal-brasileiro/229897612</a>
+        </p>
+
+        <p><a id="ref4">4</a>
+            - Atentado contra a segurança de serviço de utilizade pública. <a
+                href="https://www.direitocom.com/codigo-penal/codigo-penal/artigo-265-6"
+                target="_blank">https://www.direitocom.com/codigo-penal/codigo-penal/artigo-265-6</a>
+        </p>
+
+
+    </div>
+
+
+    <script>
+        var data = [
+            ["Malware <br />\
+            <i class='nota'>Keylogger, Trojan, Vírus, Rootkit, Worm, Spyware</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a' target='_blank'>   \
+                    - Invasão de dispositivo informático - Código Penal, art. 154-A       \
+                 </a>",
+                "Típico",
+                "Integridade, Confidencialidade, Disponibilidade",
+                "Federal"
+            ],
+            ["Ransomware <br />\
+            <i class='nota'>Sequestro de Dados, Criptografia</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a' target='_blank'>   \
+                    - Invasão de dispositivo informático - Código Penal, art. 154-A       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158' target='_blank'>   \
+                    - Extorsão - Código Penal, art. 158       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265' target='_blank'>   \
+                    - Interrupção de Serviços de Utilidade Pública - Código Penal, art. 265       \
+                 </a>",
+                "Misto",
+                "Integridade, Confidencialidade, Disponibilidade",
+                "Federal"
+            ],
+            ["Desfiguração de Site <br /> \
+             <i class='nota'>Defacement, Pichação Virtual</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a' target='_blank'>   \
+                    - Invasão de dispositivo informático - Código Penal, art. 154-A       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art163' target='_blank'>   \
+                    - Dano - Código Penal, art. 163       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265' target='_blank'>   \
+                    - Interrupção de Serviços de Utilidade Pública - Código Penal, art. 265       \
+                 </a>",
+                "Misto",
+                "Integridade, Confidencialidade, Disponibilidade",
+                "Federal"
+            ],
+            ["Sniffing <br /> \
+            <i class='nota'>Captura de Tráfego de Rede, Interceptação, MITM (Man-in-the-Middle) </i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/leis/l9296.htm#art10' target='_blank'> \
+                - Interceptação de Comunicações - Lei nº 9.296/1996, art 10\
+                </a>",
+                "Misto",
+                "Confidencialidade, Privacidade",
+                "Federal"
+            ],
+            ["Cryptojacking<sup><a href='#ref2'>2</a></sup> <br />\
+            <i class='nota'>Mineração de criptomoedas sem autorização</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a' target='_blank'>   \
+                    - Invasão de dispositivo informático - Código Penal, art. 154-A       \
+                 </a> <br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155' target='_blank'>   \
+                    - Furto de Energia Elétrica - Código Penal, art. 155 §3º 2       \
+                 </a>",
+                "Atípico",
+                "Violação de Política",
+                "Federal"
+            ],
+            ["Phishing",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171' target='_blank'>   \
+                    - Estelionato / Fraude Eletrônica - Código Penal, art. 171       \
+                 </a> <br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155' target='_blank'>   \
+                    - Furto - Código Penal, art. 155       \
+                 </a> <br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299' target = '_blank' >   \
+                            - Falsidade ideológica - Código Penal, art. 299       \
+                 </a > <br /> ",
+                "Misto",
+                "Autenticidade, Autoria",
+                "Federal"
+            ],
+            ["Negação de Serviço<sup><a href='#ref3'>3</a></sup> <br />\
+            <i class='nota'>DoS, DDoS. Sobrecarga do link de dados, CPU, Disco ou Memória, Inundação de Pacotes, Flood, Ataques de Amplificação de DNS, NTP, SNMP, SSDP, Portmap, NetBIOS, Device Discovery </i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266' target='_blank'>   \
+                    - Interrupção ou perturbação de serviço informático, telemático ou de informação - Código Penal, art. 266",
+                "Típico",
+                "Disponibilidade",
+                "Federal"
+            ],
+            ["Negação de Serviço<sup><a href='#ref4'>4</a></sup> <br />\
+            <i class='nota'>Ataque a sistema SCADA (Supervisory Control and Data Acquisition)</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265' target='_blank'>   \
+                    - Atentado contra serviço de utilidade pública - Código Penal, art. 265       \
+                 </a><br />",
+                "Misto",
+                "Disponibilidade",
+                "Federal"
+            ],
+            ["Vazamento de Dados",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a' target='_blank'>   \
+                    - Invasão de dispositivo informático - Código Penal, art. 154-A       \
+                 </a>",
+                "Típico",
+                "Confidencialidade, Privacidade",
+                "Federal"
+            ],
+            ["Cyberbullying",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147' target='_blank'>   \
+                    - Difamação - Código Penal, art. 147       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art138' target='_blank'>   \
+                    - Calúnia - Código Penal, art. 138       \
+                 </a><br /> \
+                 <a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139' target='_blank'>   \
+                    - Injúria - Código Penal, art. 139       \
+                    </a>",
+                "Misto",
+                "Privacidade",
+                "Federal"
+            ],
+            ["Stalking<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Perseguição</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147a' target='_blank'>   \
+                    - Perseguição - Código Penal, art. 147-A  \
+                 </a>",
+                "Misto",
+                "Privacidade",
+                "Federal"
+            ],
+            ["Racismo<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Preconceito, Discriminação</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/leis/l7716.htm#art20' target='_blank'>   \
+                    - Lei 7.716/89, art. 20  \
+                 </a>",
+                "Atípico",
+                "N/A",
+                "Federal"
+            ],
+            ["Calúnia<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Acusaão falsa</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art138' target='_blank'>   \
+                    - Calúnia - Código Penal, art. 138  \
+                 </a>",
+                "Atípico",
+                "N/A",
+                "Federal"
+            ],
+            ["Injúria<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Ofensa, Dignidade</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art140' target='_blank'>   \
+                    - Injúria - Código Penal, art. 140  \
+                 </a>",
+                "Atípico",
+                "N/A",
+                "Federal"
+            ],
+            ["Difamação<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Ofensa, Reputação</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139' target='_blank'>   \
+                    - Difamação - Código Penal, art. 139  \
+                 </a>",
+                "Atípico",
+                "N/A",
+                "Federal"
+            ],
+            ["Incitação<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Estimular, Incentivar</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art286' target='_blank'>   \
+                    - Incitação - Código Penal, art. 286  \
+                 </a>",
+                "Atípico",
+                "N/A",
+                "Federal"
+            ],
+            ["Fake News<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Mentira, Notícia Falsa, Deep Fake</i>",
+                "<a href='https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1641437&filename=Avulso%20PL%209554/2018' target='_blank'>   \
+                    - Projeto de Lei  \
+                 </a>",
+                "Atípico",
+                "Autenticidade",
+                "Federal"
+            ],
+            ["Falsa identidade<sup><a href='#'>?</a></sup> <br />\
+            <i class='nota'>Identidade Falsa, Falsificação, Documento</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art307' target='_blank'>   \
+                    - Falsa identidade - Código Penal, art. 307  \
+                 </a>",
+                "Atípico",
+                "Autenticidade",
+                "Federal"
+            ],
+            ["Falsidade ideológica<sup><a href='#'>?</a></sup > <br />\
+            <i class='nota'>Informação falsa, Dados falsos, Banco de Dados, Cadastro, Inscrição</i>",
+                "<a href='https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299' target='_blank'>   \
+                    - Falsidade ideológica - Código Penal, art. 299  \
+                 </a > ",
+                "Atípico",
+                "Autenticidade",
+                "Federal"
+            ],
+        ];
+
+        let dt = new DataTable('#myTable', {
+            data: data,
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.2/i18n/pt-BR.json',
+            },
+            columnDefs: [{ className: 'situacao', targets: [0] }, { className: 'dispositivo', targets: [1] }],
+            order: [[4, 'desc'], [0, 'asc']],
+            pageLength: 50
+        });
+
+
+    </script>
+    <footer>
+        <p>© 2024 Crimes Cibernéticos - <a
+                href="https://raw.githubusercontent.com/ricardomaia/crimes-ciberneticos/main/LICENSE">CC0 1.0
+                Universal</a></p>
+    </footer>
+</body>
+
+</html>
