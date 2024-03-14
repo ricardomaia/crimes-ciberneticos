@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #efefef;
+  color: #222;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#creditos,
+#sobre,
+#referencias {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #222;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+table a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+table a:active {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+table a:visited {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section-referencias {
+  font-size: 90%;
+}
