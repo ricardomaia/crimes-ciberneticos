@@ -14,55 +14,64 @@
 </head>
 
 <body class="ui-dark-theme">
-    <div id="root">
-        <h1>Crimes Cibernéticos</h1>
-        <header>
-            <nav>
-                <a href="#root">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#creditos">Créditos</a>
-                <a href="#referencias">Referências</a>
-                <span class="repo"><a href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank"><i
-                            class="fa-brands fa-github"></i> GitHub</a></span>
-
-            </nav>
-        </header>
 
 
-        <table id="myTable" class="display">
-            <thead>
-                <tr>
-                    <th>Situação / Palavras-Chave</th>
-                    <th>Dispositivo Legal (possível tipificação / indício)</th>
-                    <th>Tipo</th>
-                    <th>Aspecto da Segurança</th>
-                    <th>Âmbito</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+    <header>
+        <nav>
+            <a href="#top">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#creditos">Créditos</a>
+            <a href="#referencias">Referências</a>
+            <span class="repo"><a href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank"><i
+                        class="fa-brands fa-github"></i> GitHub</a></span>
+        </nav>
+        <h1 id="root">Crimes Cibernéticos</h1>
+    </header>
 
-    <a id="sobre" <h2>Sobre</h2></a>
+
+
+    <a id="toTop"></a>
+
+
+
+    <table id="tbLegislacao" class="display">
+        <thead>
+            <tr>
+                <th>Situação / Palavras-Chave</th>
+                <th>Dispositivo Legal (possível tipificação / indício)</th>
+                <th>Tipo</th>
+                <th>Aspecto da Segurança</th>
+                <th>Âmbito</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+
+
+    <h2 id="sobre">Sobre</h2>
     <p>
         Projeto colaborativo para auxiliar Equipes de Resposta a Incidentes na identificação de possíveis Crimes
         Cibernéticos e outras violações à normativas dos Estados ou do Distrito Federal.
     </p>
 
-    <a id="creditos" <h2>Créditos</h2></a>
+    <h2 id="creditos">Créditos</h2>
     <p><b>Organização:</b> Ricardo de Souza Maia <a href="https://www.linkedin.com/in/ricardomaia/" target="_blank"><i
                 class="fa-brands fa-linkedin"></i></a> <a href="https://github.com/ricardomaia" target="_blank"><i
                 class="fa-brands fa-github"></i></a></p>
 
-    <a id="referencias" <h2>Referências</h2></a>
+    <h2 id="referencias">Referências</h2>
 
     <div class="section-referencias">
-        <p><a id="ref1">1</a> - ANDRADE, Thiago Laurenço Lawinsky de; NOVAES, Jackson. DIREITO À INFORMAÇÃO X DIREITO À
+        <p><a id="ref1">1</a> - ANDRADE, Thiago Laurenço Lawinsky de; NOVAES, Jackson. DIREITO À INFORMAÇÃO X
+            DIREITO À
             INTIMIDADE: uma análise à
             luz da regulamentação do direito frente às novas tecnologias. Revista Ibero-Americana de Humanidades,
             Ciências e
-            Educação, [S.L.], v. 9, n. 5, p. 2982-3004, 31 maio 2023. Revista Ibero-Americana de Humanidades, Ciencias e
+            Educação, [S.L.], v. 9, n. 5, p. 2982-3004, 31 maio 2023. Revista Ibero-Americana de Humanidades,
+            Ciencias e
             Educacao. <a href="http://dx.doi.org/10.51891/rease.v9i5.10076"
                 target="_blank">http://dx.doi.org/10.51891/rease.v9i5.10076</a>.
         </p>
@@ -392,7 +401,7 @@
             ],
         ];
 
-        let dt = new DataTable('#myTable', {
+        let dt = new DataTable('#tbLegislacao', {
             data: data,
             language: {
                 url: '//cdn.datatables.net/plug-ins/2.0.2/i18n/pt-BR.json',
@@ -403,10 +412,27 @@
         });
 
 
+        var btn = $('#toTop');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, 'fast', 'swing');
+        });
+
+
     </script>
     <footer>
         <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title"
-                rel="cc:attributionURL" href="https://crimes-ciberneticos.info/">Crimes Cibernéticos</a> está marcado
+                rel="cc:attributionURL" href="https://crimes-ciberneticos.info/">Crimes Cibernéticos</a> está
+            marcado
             pelo <a rel="cc:attributionURL dct:creator" property="cc:attributionName"
                 href="https://www.linkedin.com/in/ricardomaia/">autor</a> com <a
                 href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank"
