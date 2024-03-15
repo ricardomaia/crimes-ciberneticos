@@ -19,7 +19,7 @@ header {
   width: 100%;
   background-color: #efefef;
   color: #222;
-  padding: 0 2em 1em 2em;
+  padding: 0 1.5em 1em 1.5em;
   z-index: 1000;
 }
 
@@ -32,8 +32,22 @@ footer {
   color: #222;
   text-align: center;
 }
+
+header a h1 {
+  font-size: 2.5em;
+  margin: 0;
+  margin-bottom: 0.4em;
+  padding: 0;
+  color: #333;
+}
+
 #tbLegislacao {
-  margin-top: 4em;
+  margin-top: 1em;
+}
+
+#tbLegislacao_wrapper > div:nth-child(1) {
+  margin-top: 6em;
+  margin-bottom: 0em;
 }
 
 #toTop {

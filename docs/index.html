@@ -56,7 +56,9 @@
             <span class="repo"><a href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank"><i
                         class="fa-brands fa-github"></i> GitHub</a></span>
         </nav>
-        <h1 id="root">Crimes Cibernéticos</h1>
+        <a href="#top">
+            <h1>Crimes Cibernéticos</h1>
+        </a>
     </header>
 
 
@@ -439,7 +441,9 @@
             },
             columnDefs: [{ className: 'situacao', targets: [0] }, { className: 'dispositivo', targets: [1] }],
             order: [[4, 'desc'], [0, 'asc']],
-            pageLength: 50
+            pageLength: 8,
+            select: true
+
         });
 
 
