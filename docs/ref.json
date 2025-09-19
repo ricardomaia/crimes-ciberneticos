@@ -1,0 +1,88 @@
+{
+    "referencias": {
+        "ref1": {
+            "titulo": "Lei Carolina Dieckmann",
+            "descricao": "Lei nº 12.737/2012 que tipifica crimes informáticos",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12737.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref2": {
+            "titulo": "Cryptojacking: Mineração Não Autorizada de Criptomoedas",
+            "descricao": "Análise jurídica sobre o uso não autorizado de recursos computacionais para mineração de criptomoedas",
+            "url": "https://example.com/cryptojacking-analysis",
+            "tipo": "artigo",
+            "ambito": "tecnico"
+        },
+        "ref3": {
+            "titulo": "Estratégia Nacional de Segurança Cibernética",
+            "descricao": "Decreto nº 10.222/2020 que institui a Estratégia Nacional de Segurança Cibernética",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10222.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref4": {
+            "titulo": "Ataques de Negação de Serviço: Aspectos Técnicos e Jurídicos",
+            "descricao": "Estudo técnico sobre ataques DDoS e suas implicações legais",
+            "url": "https://example.com/ddos-study",
+            "tipo": "estudo",
+            "ambito": "tecnico"
+        },
+        "ref5": {
+            "titulo": "LGPD - Lei Geral de Proteção de Dados Pessoais",
+            "descricao": "Lei nº 13.709/2018 sobre proteção de dados pessoais",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref6": {
+            "titulo": "Marco Civil da Internet",
+            "descricao": "Lei nº 12.965/2014 que estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref7": {
+            "titulo": "Código de Defesa do Consumidor",
+            "descricao": "Lei nº 8.078/1990 aplicável a crimes cibernéticos envolvendo relações de consumo",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref8": {
+            "titulo": "Estatuto da Criança e do Adolescente",
+            "descricao": "Lei nº 8.069/1990 com disposições sobre crimes contra crianças e adolescentes no ambiente digital",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref9": {
+            "titulo": "Lei de Interceptação Telefônica",
+            "descricao": "Lei nº 9.296/1996 sobre interceptação de comunicações telefônicas e telemáticas",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref10": {
+            "titulo": "Manual de Investigação de Crimes Cibernéticos",
+            "descricao": "Guia técnico para investigação de crimes digitais",
+            "url": "https://example.com/manual-investigacao",
+            "tipo": "manual",
+            "ambito": "tecnico"
+        }
+    },
+    "categorias": {
+        "legislacao": "Leis, decretos, regulamentos e outras normas jurídicas",
+        "artigo": "Artigos científicos e acadêmicos",
+        "estudo": "Estudos técnicos e relatórios especializados",
+        "manual": "Manuais e guias práticos",
+        "jurisprudencia": "Decisões judiciais e precedentes"
+    },
+    "ambitos": {
+        "federal": "Legislação e normas de âmbito nacional",
+        "estadual": "Legislação e normas de âmbito estadual",
+        "municipal": "Legislação e normas de âmbito municipal",
+        "tecnico": "Documentos técnicos e acadêmicos",
+        "internacional": "Tratados e normas internacionais"
+    }
+}

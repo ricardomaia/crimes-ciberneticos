@@ -1,8 +1,8 @@
-# Como Atualizar o Arquivo data.json
+# Guia de Atualização do Projeto
 
-Este documento fornece instruções detalhadas sobre como atualizar o arquivo `data.json` que contém os dados da tabela de crimes cibernéticos.
+Este documento fornece instruções detalhadas sobre como atualizar os arquivos de dados do projeto de crimes cibernéticos.
 
-## Estrutura do Arquivo
+## 1. Arquivo data.json
 
 O arquivo `data.json` contém um array de objetos, onde cada objeto representa uma situação de crime cibernético com a seguinte estrutura:
 
@@ -23,7 +23,7 @@ O arquivo `data.json` contém um array de objetos, onde cada objeto representa u
 }
 ```
 
-## Campos Obrigatórios
+### Campos Obrigatórios
 
 - **situacao**: Nome da situação (string)
 - **dispositivos**: Array com pelo menos um dispositivo legal
@@ -31,12 +31,12 @@ O arquivo `data.json` contém um array de objetos, onde cada objeto representa u
 - **aspecto**: Aspecto de segurança (string)
 - **ambito**: Âmbito jurisdicional (string)
 
-## Campos Opcionais
+### Campos Opcionais
 
 - **palavrasChave**: Array de palavras-chave relacionadas
 - **referencias**: Array de referências (ex: ["ref2", "ref5"])
 
-## Como Adicionar uma Nova Situação
+### Como Adicionar uma Nova Situação
 
 1. Abra o arquivo `data.json`
 2. Localize o final do array (antes do `]` final)
@@ -183,3 +183,95 @@ Para atualizar um dispositivo existente:
 - Teste todas as URLs manualmente
 - Use links permanentes quando disponível
 - Adicione âncoras para seções específicas da legislação
+
+## 2. Arquivo ref.json
+
+O arquivo `ref.json` contém as referências organizadas que são utilizadas no projeto. Ele possui a seguinte estrutura:
+
+```json
+{
+  "referencias": {
+    "ref1": {
+      "titulo": "Título da referência",
+      "descricao": "Descrição detalhada da referência",
+      "url": "https://link-para-recurso.com",
+      "tipo": "legislacao|artigo|estudo|manual|jurisprudencia",
+      "ambito": "federal|estadual|municipal|tecnico|internacional"
+    }
+  },
+  "categorias": {
+    "legislacao": "Descrição da categoria"
+  },
+  "ambitos": {
+    "federal": "Descrição do âmbito"
+  }
+}
+```
+
+### Como Adicionar uma Nova Referência
+
+1. Abra o arquivo `ref.json`
+2. Localize a seção `"referencias"`
+3. Adicione uma nova entrada seguindo o padrão:
+
+```json
+"refX": {
+  "titulo": "Título da Nova Referência",
+  "descricao": "Descrição clara e concisa",
+  "url": "https://link-completo.com",
+  "tipo": "legislacao",
+  "ambito": "federal"
+}
+```
+
+### Tipos de Referência Válidos
+
+- **legislacao**: Leis, decretos, regulamentos
+- **artigo**: Artigos científicos e acadêmicos
+- **estudo**: Estudos técnicos e relatórios
+- **manual**: Manuais e guias práticos
+- **jurisprudencia**: Decisões judiciais
+
+### Âmbitos Válidos para Referências
+
+- **federal**: Legislação/normas nacionais
+- **estadual**: Legislação estadual
+- **municipal**: Legislação municipal
+- **tecnico**: Documentos técnicos
+- **internacional**: Tratados e normas internacionais
+
+### Como Referenciar no data.json
+
+No arquivo `data.json`, use o campo `referencias` para conectar situações às referências:
+
+```json
+{
+  "situacao": "Nome da Situação",
+  "referencias": ["ref2", "ref5"],
+  ...
+}
+```
+
+### Exemplo de Adição de Referência
+
+```json
+"ref11": {
+  "titulo": "Marco Legal da Inteligência Artificial",
+  "descricao": "PL 2.338/2023 que propõe regulamentação da IA no Brasil",
+  "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338724",
+  "tipo": "legislacao",
+  "ambito": "federal"
+}
+```
+
+### Validação do ref.json
+
+Antes de salvar, sempre:
+1. Valide o JSON em um validador online
+2. Verifique se as URLs estão funcionando
+3. Confirme se os tipos e âmbitos estão corretos
+4. Teste se as referências aparecem corretamente no site
+
+### Integração com index.html
+
+O arquivo `index.html` carrega automaticamente as referências do `ref.json`. As mudanças no arquivo JSON serão refletidas automaticamente na seção "Referências" do site.

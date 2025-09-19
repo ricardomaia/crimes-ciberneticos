@@ -24,16 +24,16 @@
     <meta property="og:type" content="website">
 
     <meta name="keywords"
-    content="direito digital, crimes cibernéticos, crimes digitais, crimes informáticos, legislação, resposta a incidentes, LGPD, cibersegurança, proteção de dados, cyberbullying, privacidade, Estatuto Digital da Criança e do Adolescente">
+        content="direito digital, crimes cibernéticos, crimes digitais, crimes informáticos, legislação, resposta a incidentes, LGPD, cibersegurança, proteção de dados, cyberbullying, privacidade, Estatuto Digital da Criança e do Adolescente">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVXS4X4L39"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'G-FVXS4X4L39');
+        gtag('config', 'G-FVXS4X4L39');
     </script>
 
     <!-- Favicon-->
@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="//cdn.datatables.net/2.0.2/js/dataTables.min.js"> </script>
+    <script src="js/app.js"></script>
 
 </head>
 
@@ -62,7 +63,7 @@
             <div class="cookie-text">
                 <i class="fas fa-cookie-bite"></i>
                 <span>Este site utiliza cookies para melhorar sua experiência de navegação e para análise de tráfego.
-                Ao continuar navegando, você concorda com o uso de cookies.</span>
+                    Ao continuar navegando, você concorda com o uso de cookies.</span>
             </div>
             <div class="cookie-buttons">
                 <button id="cookie-accept" class="cookie-btn cookie-accept">
@@ -126,193 +127,34 @@
 
     <h2 id="referencias">Referências</h2>
 
-    <div class="section-referencias">
-        <p><a id="ref1">1</a> - ANDRADE, Thiago Laurenço Lawinsky de; NOVAES, Jackson. DIREITO À INFORMAÇÃO X
-            DIREITO À
-            INTIMIDADE: uma análise à
-            luz da regulamentação do direito frente às novas tecnologias. Revista Ibero-Americana de Humanidades,
-            Ciências e
-            Educação, [S.L.], v. 9, n. 5, p. 2982-3004, 31 maio 2023. Revista Ibero-Americana de Humanidades,
-            Ciencias e
-            Educacao. <a href="http://dx.doi.org/10.51891/rease.v9i5.10076"
-                target="_blank">http://dx.doi.org/10.51891/rease.v9i5.10076</a>.
-        </p>
-
-        <p><a id="ref2">2</a>
-            - Análise jurídica do cryptojacking : uso não autorizado do dispositivo de terceiros para a mineração de
-            criptomoedas. <a href="https://hdl.handle.net/1884/82790"
-                target="_blank">https://hdl.handle.net/1884/82790</a>
-        </p>
-
-
-        <p><a id="ref3">3</a>
-            - Ataques DoS e DDoS: anotações em face do ordenamento jurídico penal brasileiro. <a
-                href="https://www.jusbrasil.com.br/artigos/ataques-dos-e-ddos-anotacoes-em-face-do-ordenamento-juridico-penal-brasileiro/229897612"
-                target="_blank">https://www.jusbrasil.com.br/artigos/ataques-dos-e-ddos-anotacoes-em-face-do-ordenamento-juridico-penal-brasileiro/229897612</a>
-        </p>
-
-        <p><a id="ref4">4</a>
-            - Atentado contra a segurança de serviço de utilizade pública. <a
-                href="https://www.direitocom.com/codigo-penal/codigo-penal/artigo-265-6"
-                target="_blank">https://www.direitocom.com/codigo-penal/codigo-penal/artigo-265-6</a>
-        </p>
-
-        <p><a id="ref5">5</a> 
-            - Resolução CD/ANPD nº 19, de 23 de agosto de 2024. Aprova o Regulamento de Transferência Internacional de Dados. <a href="https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/international-affairs" target="_blank">https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/international-affairs</a>.
-        </p>
-        <p><a id="ref6">6</a> 
-            - Resolução nº 245, de 5 de abril de 2024. Conselho Nacional dos Direitos da Criança e do Adolescente (CONANDA). Diretrizes para proteção de crianças e adolescentes em ambientes digitais. <a href="https://in.gov.br/en/web/dou/-/resolucao-n-245-de-5-de-abril-de-2024-552695799" target="_blank">https://in.gov.br/en/web/dou/-/resolucao-n-245-de-5-de-abril-de-2024-552695799</a>.
-        </p>
-        <p><a id="ref7">7</a> 
-            - Resolução CD/ANPD nº 26, de 28 de maio de 2025. Institui o Comitê de Segurança da Informação (CSIN) no âmbito da ANPD. <a href="https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/atos_gestao_interna" target="_blank">https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/atos_gestao_interna</a>.
-        </p>
-        
+    <div id="section-referencias" class="section-referencias">
+        <!-- Referências serão carregadas dinamicamente do ref.json -->
     </div>
 
 
-    <script>
-        // Função para gerar HTML das palavras-chave
-        function gerarPalavrasChave(palavrasChave) {
-            if (!palavrasChave || palavrasChave.length === 0) return '';
-            return `<i class='nota'>${palavrasChave.join(', ')}</i>`;
-        }
-
-        // Função para gerar HTML das referências
-        function gerarReferencias(referencias) {
-            if (!referencias || referencias.length === 0) return '';
-            return referencias.map(ref => `<sup><a href='#${ref}'>${ref.replace('ref', '')}</a></sup>`).join(' ');
-        }
-
-        // Função para gerar HTML dos dispositivos legais
-        function gerarDispositivos(dispositivos) {
-            return dispositivos.map(dispositivo =>
-                `<a href='${dispositivo.url}' target='_blank'>- ${dispositivo.descricao}</a>`
-            ).join('<br />');
-        }
-
-        // Função para converter dados JSON em formato de array para DataTable
-        function converterDados(jsonData) {
-            return jsonData.map(item => {
-                const situacaoHtml = item.situacao +
-                    gerarReferencias(item.referencias) +
-                    '<br />' +
-                    gerarPalavrasChave(item.palavrasChave);
-
-                const dispositivosHtml = gerarDispositivos(item.dispositivos);
-
-                return [
-                    situacaoHtml,
-                    dispositivosHtml,
-                    item.tipo,
-                    item.aspecto,
-                    item.ambito
-                ];
-            });
-        }
-
-        // Carrega os dados do arquivo JSON externo
-        fetch('data.json')
-            .then(response => response.json())
-            .then(jsonData => {
-                // Converte os dados JSON para o formato de array
-                const data = converterDados(jsonData);
-
-                // Inicializa o DataTable com os dados convertidos
-                let dt = new DataTable('#tbLegislacao', {
-                    data: data,
-                    language: {
-                        url: '//cdn.datatables.net/plug-ins/2.0.2/i18n/pt-BR.json',
-                    },
-                    columnDefs: [{ className: 'situacao', targets: [0] }, { className: 'dispositivo', targets: [1] }],
-                    order: [[4, 'desc'], [0, 'asc']],
-                    pageLength: 8,
-                    select: true
-                });
-            })
-            .catch(error => {
-                console.error('Erro ao carregar os dados:', error);
-            });
-
-
-        var btn = $('#toTop');
-
-        $(window).scroll(function () {
-            if ($(window).scrollTop() > 300) {
-                btn.addClass('show');
-            } else {
-                btn.removeClass('show');
-            }
-        });
-
-        btn.on('click', function (e) {
-            e.preventDefault();
-            $('html, body').animate({ scrollTop: 0 }, 'fast', 'swing');
-        });
-
-        // Cookie Banner Control
-        $(document).ready(function() {
-            // Check if user has already made a choice about cookies
-            const cookieConsent = localStorage.getItem('cookieConsent');
-
-            // Show banner if no previous choice was made
-            if (cookieConsent === null) {
-                setTimeout(function() {
-                    $('#cookie-banner').addClass('show');
-                }, 1000); // Show after 1 second
-            } else if (cookieConsent === 'accepted') {
-                // If cookies were accepted, ensure gtag is initialized
-                if (typeof gtag !== 'undefined') {
-                    gtag('consent', 'update', {
-                        'analytics_storage': 'granted'
-                    });
-                }
-            }
-
-            // Handle accept button
-            $('#cookie-accept').click(function() {
-                localStorage.setItem('cookieConsent', 'accepted');
-                $('#cookie-banner').removeClass('show');
-
-                // Grant consent for analytics
-                if (typeof gtag !== 'undefined') {
-                    gtag('consent', 'update', {
-                        'analytics_storage': 'granted'
-                    });
-                }
-            });
-
-            // Handle decline button
-            $('#cookie-decline').click(function() {
-                localStorage.setItem('cookieConsent', 'declined');
-                $('#cookie-banner').removeClass('show');
-
-                // Deny consent for analytics
-                if (typeof gtag !== 'undefined') {
-                    gtag('consent', 'update', {
-                        'analytics_storage': 'denied'
-                    });
-                }
-            });
-        });
-
-
-    </script>
 
     <h2 id="politica-privacidade">Política de Privacidade e Cookies</h2>
     <div class="section-referencias">
-        <p><strong>Uso de Cookies:</strong> Este site utiliza cookies para melhorar a experiência do usuário e para análise de tráfego através do Google Analytics. Os cookies são pequenos arquivos de texto armazenados no seu dispositivo que nos ajudam a entender como você interage com nosso site.</p>
+        <p><strong>Uso de Cookies:</strong> Este site utiliza cookies para melhorar a experiência do usuário e para
+            análise de tráfego através do Google Analytics. Os cookies são pequenos arquivos de texto armazenados no seu
+            dispositivo que nos ajudam a entender como você interage com nosso site.</p>
 
         <p><strong>Tipos de Cookies Utilizados:</strong></p>
         <ul>
             <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento básico do site</li>
-            <li><strong>Cookies de Análise:</strong> Google Analytics para entender o uso do site e melhorar nosso conteúdo</li>
+            <li><strong>Cookies de Análise:</strong> Google Analytics para entender o uso do site e melhorar nosso
+                conteúdo</li>
         </ul>
 
-        <p><strong>Seus Direitos:</strong> Você pode aceitar ou recusar o uso de cookies através do banner apresentado. Sua escolha será lembrada para futuras visitas. Você também pode gerenciar cookies através das configurações do seu navegador.</p>
+        <p><strong>Seus Direitos:</strong> Você pode aceitar ou recusar o uso de cookies através do banner apresentado.
+            Sua escolha será lembrada para futuras visitas. Você também pode gerenciar cookies através das configurações
+            do seu navegador.</p>
 
-        <p><strong>Dados Coletados:</strong> Este site não coleta dados pessoais identificáveis. O Google Analytics coleta apenas dados agregados e anônimos sobre o uso do site.</p>
+        <p><strong>Dados Coletados:</strong> Este site não coleta dados pessoais identificáveis. O Google Analytics
+            coleta apenas dados agregados e anônimos sobre o uso do site.</p>
 
-        <p><strong>Contato:</strong> Para questões sobre privacidade, entre em contato através do <a href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank">repositório GitHub</a>.</p>
+        <p><strong>Contato:</strong> Para questões sobre privacidade, entre em contato através do <a
+                href="https://github.com/ricardomaia/crimes-ciberneticos" target="_blank">repositório GitHub</a>.</p>
     </div>
 
     <footer>
