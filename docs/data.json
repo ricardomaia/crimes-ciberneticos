@@ -95,11 +95,27 @@
         ],
         "dispositivos": [
             {
-                "descricao": "Interceptação de Comunicações - Lei nº 9.296/1996, art 10",
+                "descricao": "Invasão de dispositivo informático - Lei Carolina Dieckmann (Lei nº 12.737/2012), Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Interceptação de comunicações telemáticas - Lei nº 9.296/1996, art. 10",
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm#art10"
+            },
+            {
+                "descricao": "Violação de sigilo funcional - Código Penal, art. 325",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art325"
+            },
+            {
+                "descricao": "Violação de segredo - Código Penal, art. 326",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art326"
+            },
+            {
+                "descricao": "Violação de correspondência - Código Penal, art. 151 (analogia para ambiente digital)",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art151"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Típico",
         "aspecto": "Confidencialidade, Privacidade",
         "ambito": "Federal"
     },
@@ -121,7 +137,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
             }
         ],
-        "tipo": "Atípico",
+        "tipo": "Misto",
         "aspecto": "Violação de Política",
         "ambito": "Federal"
     },
@@ -142,7 +158,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Atípico",
         "aspecto": "Autenticidade, Autoria",
         "ambito": "Federal"
     },
@@ -228,7 +244,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147a"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Típico",
         "aspecto": "Privacidade",
         "ambito": "Federal"
     },
@@ -469,7 +485,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Típico",
         "aspecto": "Violação de Política",
         "ambito": "Federal"
     },
@@ -490,7 +506,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Típico",
         "aspecto": "Violação de Política, Danos à Reputação",
         "ambito": "Federal"
     },
@@ -569,7 +585,7 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art72"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Atípico",
         "aspecto": "Confidencialidade, Integridade",
         "ambito": "Federal"
     },
