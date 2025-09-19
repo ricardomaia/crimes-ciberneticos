@@ -121,29 +121,23 @@
     },
     {
         "situacao": "Negação de Serviço",
-        "palavrasChave": ["DoS", "DDoS", "Sobrecarga do link de dados", "CPU", "Disco ou Memória", "Inundação de Pacotes", "Flood", "Ataques de Amplificação de DNS", "NTP", "SNMP", "SSDP", "Portmap", "NetBIOS", "Device Discovery"],
-        "referencias": ["ref3"],
+        "palavrasChave": ["DoS", "DDoS", "Sobrecarga do link de dados", "CPU", "Disco ou Memória", "Inundação de Pacotes", "Flood", "Ataques de Amplificação de DNS", "NTP", "SNMP", "SSDP", "Portmap", "NetBIOS", "Device Discovery", "Ataque a sistema SCADA", "Supervisory Control and Data Acquisition", "Infraestrutura Crítica"],
+        "referencias": ["ref3", "ref4"],
         "dispositivos": [
             {
                 "descricao": "Interrupção ou perturbação de serviço informático, telemático ou de informação - Código Penal, art. 266",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266"
-            }
-        ],
-        "tipo": "Típico",
-        "aspecto": "Disponibilidade",
-        "ambito": "Federal"
-    },
-    {
-        "situacao": "Negação de Serviço",
-        "palavrasChave": ["Ataque a sistema SCADA (Supervisory Control and Data Acquisition)"],
-        "referencias": ["ref4"],
-        "dispositivos": [
+            },
             {
                 "descricao": "Atentado contra serviço de utilidade pública - Código Penal, art. 265",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
+            },
+            {
+                "descricao": "Estratégia Nacional de Segurança Cibernética - Decreto nº 10.222/2020",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10222.htm"
             }
         ],
-        "tipo": "Misto",
+        "tipo": "Típico",
         "aspecto": "Disponibilidade",
         "ambito": "Federal"
     },
@@ -538,6 +532,119 @@
         ],
         "tipo": "Misto",
         "aspecto": "Autenticidade, Integridade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Deepfake / Manipulação de Imagem ou Voz",
+        "palavrasChave": ["Inteligência Artificial", "Falsificação", "Vídeo", "Áudio", "Imagem", "Manipulação", "Deepfake"],
+        "dispositivos": [
+            {
+                "descricao": "Falsidade ideológica - Código Penal, art. 299",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
+            },
+            {
+                "descricao": "Difamação - Código Penal, art. 139",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139"
+            },
+            {
+                "descricao": "Injúria - Código Penal, art. 140",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art140"
+            },
+            {
+                "descricao": "Oferecer, trocar, disponibilizar, transmitir, distribuir, publicar ou divulgar - ECA (Lei nº 8.069/90), art. 241-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241a"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Autenticidade, Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Fraudes Eletrônicas com Pix / Meios de Pagamento Instantâneo",
+        "palavrasChave": ["Pix", "Pagamento Instantâneo", "Fraude", "Dispositivo Móvel", "Internet Banking", "QR Code", "Chave Pix"],
+        "dispositivos": [
+            {
+                "descricao": "Fraudes eletrônicas - Lei nº 14.155/2021 (alteração do Código Penal)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14155.htm"
+            },
+            {
+                "descricao": "Estelionato - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Furto mediante fraude - Código Penal, art. 155, § 4º, II",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Autenticidade, Integridade, Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Crimes contra Infraestruturas Críticas de Informação",
+        "palavrasChave": ["Infraestrutura Crítica", "SCADA", "ICS", "Energia", "Telecomunicações", "Transporte", "Água", "Saúde"],
+        "dispositivos": [
+            {
+                "descricao": "Estratégia Nacional de Segurança de Infraestruturas Críticas - Decreto nº 10.569/2020",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10569.htm"
+            },
+            {
+                "descricao": "Atentado contra serviço de utilidade pública - Código Penal, art. 265",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
+            },
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Disponibilidade, Integridade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Vazamento de Dados Genéticos / Biometria",
+        "palavrasChave": ["Dados Genéticos", "Biometria", "Dados Sensíveis", "DNA", "Impressão Digital", "Reconhecimento Facial", "Íris"],
+        "dispositivos": [
+            {
+                "descricao": "Tratamento de dados pessoais sensíveis - LGPD (Lei nº 13.709/2018), arts. 11 e 12",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art11"
+            },
+            {
+                "descricao": "Regulamento Geral de Proteção de Dados Pessoais - Decreto nº 10.474/2020",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10474.htm"
+            },
+            {
+                "descricao": "Violação de dados pessoais - LGPD (Lei nº 13.709/2018), art. 48",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art48"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Confidencialidade, Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Crimes Relacionados a Inteligência Artificial",
+        "palavrasChave": ["Inteligência Artificial", "IA", "Machine Learning", "Algoritmo", "Automação", "Bias Algorítmico", "Decisão Automatizada"],
+        "dispositivos": [
+            {
+                "descricao": "Marco Legal da IA no Brasil - PL 2.338/2023 (em tramitação)",
+                "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338724"
+            },
+            {
+                "descricao": "Estelionato - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Falsidade ideológica - Código Penal, art. 299",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
+            },
+            {
+                "descricao": "Tratamento de dados pessoais - LGPD (Lei nº 13.709/2018)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Autenticidade, Privacidade, Violação de Política",
         "ambito": "Federal"
     }
 ]
