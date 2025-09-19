@@ -1,0 +1,543 @@
+[
+    {
+        "situacao": "Malware",
+        "palavrasChave": ["Keylogger", "Trojan", "Vírus", "Rootkit", "Worm", "Spyware"],
+        "dispositivos": [
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Integridade, Confidencialidade, Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Hacking",
+        "palavrasChave": ["Invasão", "Comprometimento", "Acesso não autorizado", "Violação"],
+        "dispositivos": [
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Integridade, Confidencialidade, Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Ransomware",
+        "palavrasChave": ["Sequestro de Dados", "Criptografia"],
+        "dispositivos": [
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Extorsão - Código Penal, art. 158",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158"
+            },
+            {
+                "descricao": "Interrupção de Serviços de Utilidade Pública - Código Penal, art. 265",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Integridade, Confidencialidade, Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Desfiguração de Site",
+        "palavrasChave": ["Defacement", "Pichação Virtual", "Ciberativismo"],
+        "dispositivos": [
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Dano - Código Penal, art. 163",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art163"
+            },
+            {
+                "descricao": "Interrupção de Serviços de Utilidade Pública - Código Penal, art. 265",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Integridade, Confidencialidade, Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Sniffing",
+        "palavrasChave": ["Captura de Tráfego de Rede", "Interceptação", "MITM (Man-in-the-Middle)"],
+        "dispositivos": [
+            {
+                "descricao": "Interceptação de Comunicações - Lei nº 9.296/1996, art 10",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9296.htm#art10"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Confidencialidade, Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Cryptojacking",
+        "palavrasChave": ["Mineração de criptomoedas sem autorização"],
+        "referencias": ["ref2"],
+        "dispositivos": [
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Furto de Energia Elétrica - Código Penal, art. 155 §3º 2",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Phishing",
+        "palavrasChave": [],
+        "dispositivos": [
+            {
+                "descricao": "Estelionato / Fraude Eletrônica - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Furto - Código Penal, art. 155",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            },
+            {
+                "descricao": "Falsidade ideológica - Código Penal, art. 299",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Autenticidade, Autoria",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Negação de Serviço",
+        "palavrasChave": ["DoS", "DDoS", "Sobrecarga do link de dados", "CPU", "Disco ou Memória", "Inundação de Pacotes", "Flood", "Ataques de Amplificação de DNS", "NTP", "SNMP", "SSDP", "Portmap", "NetBIOS", "Device Discovery"],
+        "referencias": ["ref3"],
+        "dispositivos": [
+            {
+                "descricao": "Interrupção ou perturbação de serviço informático, telemático ou de informação - Código Penal, art. 266",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Negação de Serviço",
+        "palavrasChave": ["Ataque a sistema SCADA (Supervisory Control and Data Acquisition)"],
+        "referencias": ["ref4"],
+        "dispositivos": [
+            {
+                "descricao": "Atentado contra serviço de utilidade pública - Código Penal, art. 265",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Disponibilidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Cyberbullying",
+        "palavrasChave": ["Redes Sociais", "Jogos On-line", "Live", "Fórum", "Assédio", "Intimidação"],
+        "dispositivos": [
+            {
+                "descricao": "Intimidação sistemática virtual - Código Penal, art. 146-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art146a"
+            },
+            {
+                "descricao": "Diretrizes para proteção de crianças e adolescentes em ambientes digitais - Resolução nº 245 do CONANDA, de 5 de abril de 2024",
+                "url": "https://in.gov.br/en/web/dou/-/resolucao-n-245-de-5-de-abril-de-2024-552695799"
+            },
+            {
+                "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211, de 17 de setembro de 2025",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Privacidade, Proteção de Vulneráveis",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Stalking",
+        "palavrasChave": ["Perseguição"],
+        "dispositivos": [
+            {
+                "descricao": "Perseguição - Código Penal, art. 147-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147a"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Racismo",
+        "palavrasChave": ["Preconceito", "Discriminação", "Ódio"],
+        "dispositivos": [
+            {
+                "descricao": "Lei 7.716/89, art. 20",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm#art20"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Calúnia",
+        "palavrasChave": ["Acusação falsa"],
+        "dispositivos": [
+            {
+                "descricao": "Calúnia - Código Penal, art. 138",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art138"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Injúria",
+        "palavrasChave": ["Ofensa", "Dignidade"],
+        "dispositivos": [
+            {
+                "descricao": "Injúria - Código Penal, art. 140",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art140"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Difamação",
+        "palavrasChave": ["Ofensa", "Reputação"],
+        "dispositivos": [
+            {
+                "descricao": "Difamação - Código Penal, art. 139",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Incitação",
+        "palavrasChave": ["Estimular", "Incentivar"],
+        "dispositivos": [
+            {
+                "descricao": "Incitação - Código Penal, art. 286",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art286"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Fake News",
+        "palavrasChave": ["Mentira", "Notícia Falsa", "Deep Fake"],
+        "dispositivos": [
+            {
+                "descricao": "Projeto de Lei",
+                "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1641437&filename=Avulso%20PL%209554/2018"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Autenticidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Falsa identidade",
+        "palavrasChave": ["Identidade Falsa", "Falsificação", "Documento"],
+        "dispositivos": [
+            {
+                "descricao": "Falsa identidade - Código Penal, art. 307",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art307"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Autenticidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Falsidade ideológica",
+        "palavrasChave": ["Informação falsa", "Dados falsos", "Banco de Dados", "Cadastro", "Inscrição"],
+        "dispositivos": [
+            {
+                "descricao": "Falsidade ideológica - Código Penal, art. 299",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Autenticidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Divulgação de segredo",
+        "palavrasChave": ["Documento", "Confidencial", "Banco de Dados", "Sistema", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso"],
+        "dispositivos": [
+            {
+                "descricao": "Divulgação de segredo - Código Penal, art. 153",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art153"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Confidencialidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Compartilhamento de senha",
+        "palavrasChave": ["Empréstimo", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso", "Segredo"],
+        "dispositivos": [
+            {
+                "descricao": "Violação de sigilo funcional - Código Penal, art. 325",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art325"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Confidencialidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Compartilhamento de senha",
+        "palavrasChave": ["Empréstimo", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso", "Segredo"],
+        "dispositivos": [
+            {
+                "descricao": "Lei Complementar 840/2011, art 192 inciso VI - infração média",
+                "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Confidencialidade",
+        "ambito": "Distrito Federal"
+    },
+    {
+        "situacao": "Pirataria",
+        "palavrasChave": ["Torrent", "Cópia Ilegal", "Distribuição"],
+        "dispositivos": [
+            {
+                "descricao": "Violação de direito autoral - Código Penal, art. 184, § 3º",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art184"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Violação de Política, Danos à Reputação",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Pedofilia",
+        "palavrasChave": ["Sexo", "Vulnerável", "Menor", "Criança"],
+        "dispositivos": [
+            {
+                "descricao": "Oferecer, trocar, disponibilizar, transmitir, distribuir, publicar ou divulgar - ECA (Lei nº 8.069/90), art. 241-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241a"
+            },
+            {
+                "descricao": "Adquirir, possuir ou armazenar - ECA (Lei nº 8.069/90), art. 241-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241b"
+            },
+            {
+                "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211, de 17 de setembro de 2025",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Violação de Política, Danos à Reputação",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Pornografia (Divulgação Não Consentida)",
+        "palavrasChave": ["Revenge Porn", "Pornografia de Vingança", "Nudez"],
+        "dispositivos": [
+            {
+                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem o consentimento da vítima. - Código Penal, art. 218-C",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art218c"
+            },
+            {
+                "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211, de 17 de setembro de 2025",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Violação de Política, Danos à Reputação",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Conteúdo pornográfico, violento ou discriminatório",
+        "palavrasChave": ["Pornografia", "Nudez", "Discriminação", "Violência"],
+        "dispositivos": [
+            {
+                "descricao": "Lei Complementar 840/2011, art 190 inciso XIV",
+                "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art190"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Violação de Política",
+        "ambito": "Distrito Federal"
+    },
+    {
+        "situacao": "Modificação não autorizada em sistema",
+        "palavrasChave": ["Bomba lógica", "Código malicioso", "Dano", "Sistema", "Programa", "Software"],
+        "dispositivos": [
+            {
+                "descricao": "Modificação ou alteração não autorizada de sistema de informações - Código Penal, art. 313-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art313b"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Confidencialidade, Integridade, Disponibilidade, Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Inserção de dados falsos em sistema",
+        "palavrasChave": ["Fake", "Incorreto", "Dano", "Sistema", "Banco de Dados", "Programa Software"],
+        "dispositivos": [
+            {
+                "descricao": "Inserção de dados falsos em sistema de informações - Código Penal, art. 313-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art313a"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Confidencialidade, Integridade, Disponibilidade, Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Sistema Eleitoral",
+        "palavrasChave": ["Eleições", "Eleitoral", "Votação", "Voto", "Urna", "Plebiscito", "Sufrágio"],
+        "dispositivos": [
+            {
+                "descricao": "Lei 9.504/1997, art. 72",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art72"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Confidencialidade, Integridade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Monitoramento de Navegação",
+        "palavrasChave": ["Monitoramento", "Registro", "Histórico", "Navegação", "Navegador", "Browser", "Chrome", "Firefox", "Edge", "Opera", "Safari", "Site", "Banco", "E-mail"],
+        "dispositivos": [
+            {
+                "descricao": "Violação de direitos e garantias fundamentais previstos no art. 5º, incisos X e XII da Constituição Federal - Constituição Federal",
+                "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Privacidade, Violação de Política, Danos à Reputação",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Exposição de Dados Pessoais",
+        "palavrasChave": ["Identidade", "CPF", "E-mail", "Nome", "Endereço", "Religião", "Histórico Médico", "Prontuário", "Transferência Internacional"],
+        "referencias": ["ref5"],
+        "dispositivos": [
+            {
+                "descricao": "Lei nº 13.709/2018 (LGPD)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+            },
+            {
+                "descricao": "Regulamento de Transferência Internacional de Dados - Resolução CD/ANPD nº 19, de 23 de agosto de 2024",
+                "url": "https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/international-affairs"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Privacidade, Confidencialidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Violação de Sistemas e Disseminação de Malware",
+        "palavrasChave": ["Violar", "Invadir", "Site", "WWW", "Web", "Disseminar", "Malware", "Vírus", "Trojan", "Worm"],
+        "dispositivos": [
+            {
+                "descricao": "Lei Complementar 840/2011, art 192 inciso V letra \"a\"",
+                "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Violação de Política",
+        "ambito": "Distrito Federal"
+    },
+    {
+        "situacao": "Exposição de dados de servidores",
+        "palavrasChave": ["Servidor", "Público", "Pessoal", "Cadastro"],
+        "dispositivos": [
+            {
+                "descricao": "Repassar dados de servidores públicos sem autorização - Lei Complementar 840/2011, art 192 inciso V letra \"d\"",
+                "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Violação de Política",
+        "ambito": "Distrito Federal"
+    },
+    {
+        "situacao": "Ameaça",
+        "palavrasChave": ["Intimidação", "Coação", "Constrangimento"],
+        "dispositivos": [
+            {
+                "descricao": "Ameaça - Código Penal, art. 147",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Apologia de crime ou criminoso",
+        "palavrasChave": ["Enaltecimento", "Exaltação", "Elogio", "Reverência"],
+        "dispositivos": [
+            {
+                "descricao": "Apologia de crime ou criminoso - Código Penal, art. 287",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art287"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Venda ilegal de medicamento",
+        "palavrasChave": ["Falsificação", "Remédio", "Droga", "Medicinal", "Terapêutico"],
+        "dispositivos": [
+            {
+                "descricao": "Falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais - Código Penal, art. 273, § 1º",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art273"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Inserção de Dados Falsos",
+        "palavrasChave": ["Carteira de Trabalho", "Previdência Social", "Seguro", "Folha de Pagamento", "Contracheque", "Holerite", "Fraude", "Cadastro", "Registro", "Banco de Dados"],
+        "dispositivos": [
+            {
+                "descricao": "Falsificação de documento público - Código Penal, art. 297",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art297"
+            },
+            {
+                "descricao": "Falsificação de documento particular - Código Penal, art. 298",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art298"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Autenticidade, Integridade",
+        "ambito": "Federal"
+    }
+]
