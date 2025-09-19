@@ -1,7 +1,14 @@
 [
     {
         "situacao": "Malware",
-        "palavrasChave": ["Keylogger", "Trojan", "Vírus", "Rootkit", "Worm", "Spyware"],
+        "palavrasChave": [
+            "Keylogger",
+            "Trojan",
+            "Vírus",
+            "Rootkit",
+            "Worm",
+            "Spyware"
+        ],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -14,7 +21,12 @@
     },
     {
         "situacao": "Hacking",
-        "palavrasChave": ["Invasão", "Comprometimento", "Acesso não autorizado", "Violação"],
+        "palavrasChave": [
+            "Invasão",
+            "Comprometimento",
+            "Acesso não autorizado",
+            "Violação"
+        ],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -27,7 +39,10 @@
     },
     {
         "situacao": "Ransomware",
-        "palavrasChave": ["Sequestro de Dados", "Criptografia"],
+        "palavrasChave": [
+            "Sequestro de Dados",
+            "Criptografia"
+        ],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -48,7 +63,11 @@
     },
     {
         "situacao": "Desfiguração de Site",
-        "palavrasChave": ["Defacement", "Pichação Virtual", "Ciberativismo"],
+        "palavrasChave": [
+            "Defacement",
+            "Pichação Virtual",
+            "Ciberativismo"
+        ],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -69,7 +88,11 @@
     },
     {
         "situacao": "Sniffing",
-        "palavrasChave": ["Captura de Tráfego de Rede", "Interceptação", "MITM (Man-in-the-Middle)"],
+        "palavrasChave": [
+            "Captura de Tráfego de Rede",
+            "Interceptação",
+            "MITM (Man-in-the-Middle)"
+        ],
         "dispositivos": [
             {
                 "descricao": "Interceptação de Comunicações - Lei nº 9.296/1996, art 10",
@@ -82,8 +105,12 @@
     },
     {
         "situacao": "Cryptojacking",
-        "palavrasChave": ["Mineração de criptomoedas sem autorização"],
-        "referencias": ["ref2"],
+        "palavrasChave": [
+            "Mineração de criptomoedas sem autorização"
+        ],
+        "referencias": [
+            "ref2"
+        ],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -121,8 +148,29 @@
     },
     {
         "situacao": "Negação de Serviço",
-        "palavrasChave": ["DoS", "DDoS", "Sobrecarga do link de dados", "CPU", "Disco ou Memória", "Inundação de Pacotes", "Flood", "Ataques de Amplificação de DNS", "NTP", "SNMP", "SSDP", "Portmap", "NetBIOS", "Device Discovery", "Ataque a sistema SCADA", "Supervisory Control and Data Acquisition", "Infraestrutura Crítica"],
-        "referencias": ["ref3", "ref4"],
+        "palavrasChave": [
+            "DoS",
+            "DDoS",
+            "Sobrecarga do link de dados",
+            "CPU",
+            "Disco ou Memória",
+            "Inundação de Pacotes",
+            "Flood",
+            "Ataques de Amplificação de DNS",
+            "NTP",
+            "SNMP",
+            "SSDP",
+            "Portmap",
+            "NetBIOS",
+            "Device Discovery",
+            "Ataque a sistema SCADA",
+            "Supervisory Control and Data Acquisition",
+            "Infraestrutura Crítica"
+        ],
+        "referencias": [
+            "ref3",
+            "ref4"
+        ],
         "dispositivos": [
             {
                 "descricao": "Interrupção ou perturbação de serviço informático, telemático ou de informação - Código Penal, art. 266",
@@ -143,7 +191,14 @@
     },
     {
         "situacao": "Cyberbullying",
-        "palavrasChave": ["Redes Sociais", "Jogos On-line", "Live", "Fórum", "Assédio", "Intimidação"],
+        "palavrasChave": [
+            "Redes Sociais",
+            "Jogos On-line",
+            "Live",
+            "Fórum",
+            "Assédio",
+            "Intimidação"
+        ],
         "dispositivos": [
             {
                 "descricao": "Intimidação sistemática virtual - Código Penal, art. 146-A",
@@ -164,7 +219,9 @@
     },
     {
         "situacao": "Stalking",
-        "palavrasChave": ["Perseguição"],
+        "palavrasChave": [
+            "Perseguição"
+        ],
         "dispositivos": [
             {
                 "descricao": "Perseguição - Código Penal, art. 147-A",
@@ -177,7 +234,11 @@
     },
     {
         "situacao": "Racismo",
-        "palavrasChave": ["Preconceito", "Discriminação", "Ódio"],
+        "palavrasChave": [
+            "Preconceito",
+            "Discriminação",
+            "Ódio"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei 7.716/89, art. 20",
@@ -190,7 +251,9 @@
     },
     {
         "situacao": "Calúnia",
-        "palavrasChave": ["Acusação falsa"],
+        "palavrasChave": [
+            "Acusação falsa"
+        ],
         "dispositivos": [
             {
                 "descricao": "Calúnia - Código Penal, art. 138",
@@ -203,7 +266,11 @@
     },
     {
         "situacao": "Injúria",
-        "palavrasChave": ["Ofensa", "Dignidade"],
+        "palavrasChave": [
+            "Ofensa",
+            "Dignidade",
+            "Meme"
+        ],
         "dispositivos": [
             {
                 "descricao": "Injúria - Código Penal, art. 140",
@@ -216,7 +283,11 @@
     },
     {
         "situacao": "Difamação",
-        "palavrasChave": ["Ofensa", "Reputação"],
+        "palavrasChave": [
+            "Ofensa",
+            "Reputação",
+            "Meme"
+        ],
         "dispositivos": [
             {
                 "descricao": "Difamação - Código Penal, art. 139",
@@ -229,7 +300,10 @@
     },
     {
         "situacao": "Incitação",
-        "palavrasChave": ["Estimular", "Incentivar"],
+        "palavrasChave": [
+            "Estimular",
+            "Incentivar"
+        ],
         "dispositivos": [
             {
                 "descricao": "Incitação - Código Penal, art. 286",
@@ -242,7 +316,11 @@
     },
     {
         "situacao": "Fake News",
-        "palavrasChave": ["Mentira", "Notícia Falsa", "Deep Fake"],
+        "palavrasChave": [
+            "Mentira",
+            "Notícia Falsa",
+            "Deep Fake"
+        ],
         "dispositivos": [
             {
                 "descricao": "Projeto de Lei",
@@ -255,7 +333,11 @@
     },
     {
         "situacao": "Falsa identidade",
-        "palavrasChave": ["Identidade Falsa", "Falsificação", "Documento"],
+        "palavrasChave": [
+            "Identidade Falsa",
+            "Falsificação",
+            "Documento"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsa identidade - Código Penal, art. 307",
@@ -268,7 +350,13 @@
     },
     {
         "situacao": "Falsidade ideológica",
-        "palavrasChave": ["Informação falsa", "Dados falsos", "Banco de Dados", "Cadastro", "Inscrição"],
+        "palavrasChave": [
+            "Informação falsa",
+            "Dados falsos",
+            "Banco de Dados",
+            "Cadastro",
+            "Inscrição"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsidade ideológica - Código Penal, art. 299",
@@ -281,7 +369,16 @@
     },
     {
         "situacao": "Divulgação de segredo",
-        "palavrasChave": ["Documento", "Confidencial", "Banco de Dados", "Sistema", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso"],
+        "palavrasChave": [
+            "Documento",
+            "Confidencial",
+            "Banco de Dados",
+            "Sistema",
+            "Compartilhamento",
+            "Senha",
+            "Password",
+            "Credenciais de Acesso"
+        ],
         "dispositivos": [
             {
                 "descricao": "Divulgação de segredo - Código Penal, art. 153",
@@ -294,7 +391,14 @@
     },
     {
         "situacao": "Compartilhamento de senha",
-        "palavrasChave": ["Empréstimo", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso", "Segredo"],
+        "palavrasChave": [
+            "Empréstimo",
+            "Compartilhamento",
+            "Senha",
+            "Password",
+            "Credenciais de Acesso",
+            "Segredo"
+        ],
         "dispositivos": [
             {
                 "descricao": "Violação de sigilo funcional - Código Penal, art. 325",
@@ -307,7 +411,14 @@
     },
     {
         "situacao": "Compartilhamento de senha",
-        "palavrasChave": ["Empréstimo", "Compartilhamento", "Senha", "Password", "Credenciais de Acesso", "Segredo"],
+        "palavrasChave": [
+            "Empréstimo",
+            "Compartilhamento",
+            "Senha",
+            "Password",
+            "Credenciais de Acesso",
+            "Segredo"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei Complementar 840/2011, art 192 inciso VI - infração média",
@@ -320,7 +431,11 @@
     },
     {
         "situacao": "Pirataria",
-        "palavrasChave": ["Torrent", "Cópia Ilegal", "Distribuição"],
+        "palavrasChave": [
+            "Torrent",
+            "Cópia Ilegal",
+            "Distribuição"
+        ],
         "dispositivos": [
             {
                 "descricao": "Violação de direito autoral - Código Penal, art. 184, § 3º",
@@ -333,7 +448,13 @@
     },
     {
         "situacao": "Pedofilia",
-        "palavrasChave": ["Sexo", "Vulnerável", "Menor", "Criança"],
+        "palavrasChave": [
+            "Sexo",
+            "Vulnerável",
+            "Menor",
+            "Criança",
+            "Danos à Reputação"
+        ],
         "dispositivos": [
             {
                 "descricao": "Oferecer, trocar, disponibilizar, transmitir, distribuir, publicar ou divulgar - ECA (Lei nº 8.069/90), art. 241-A",
@@ -349,12 +470,16 @@
             }
         ],
         "tipo": "Misto",
-        "aspecto": "Violação de Política, Danos à Reputação",
+        "aspecto": "Violação de Política",
         "ambito": "Federal"
     },
     {
         "situacao": "Pornografia (Divulgação Não Consentida)",
-        "palavrasChave": ["Revenge Porn", "Pornografia de Vingança", "Nudez"],
+        "palavrasChave": [
+            "Revenge Porn",
+            "Pornografia de Vingança",
+            "Nudez"
+        ],
         "dispositivos": [
             {
                 "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem o consentimento da vítima. - Código Penal, art. 218-C",
@@ -371,7 +496,12 @@
     },
     {
         "situacao": "Conteúdo pornográfico, violento ou discriminatório",
-        "palavrasChave": ["Pornografia", "Nudez", "Discriminação", "Violência"],
+        "palavrasChave": [
+            "Pornografia",
+            "Nudez",
+            "Discriminação",
+            "Violência"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei Complementar 840/2011, art 190 inciso XIV",
@@ -384,7 +514,14 @@
     },
     {
         "situacao": "Modificação não autorizada em sistema",
-        "palavrasChave": ["Bomba lógica", "Código malicioso", "Dano", "Sistema", "Programa", "Software"],
+        "palavrasChave": [
+            "Bomba lógica",
+            "Código malicioso",
+            "Dano",
+            "Sistema",
+            "Programa",
+            "Software"
+        ],
         "dispositivos": [
             {
                 "descricao": "Modificação ou alteração não autorizada de sistema de informações - Código Penal, art. 313-B",
@@ -397,7 +534,14 @@
     },
     {
         "situacao": "Inserção de dados falsos em sistema",
-        "palavrasChave": ["Fake", "Incorreto", "Dano", "Sistema", "Banco de Dados", "Programa Software"],
+        "palavrasChave": [
+            "Fake",
+            "Incorreto",
+            "Dano",
+            "Sistema",
+            "Banco de Dados",
+            "Programa Software"
+        ],
         "dispositivos": [
             {
                 "descricao": "Inserção de dados falsos em sistema de informações - Código Penal, art. 313-A",
@@ -410,7 +554,15 @@
     },
     {
         "situacao": "Sistema Eleitoral",
-        "palavrasChave": ["Eleições", "Eleitoral", "Votação", "Voto", "Urna", "Plebiscito", "Sufrágio"],
+        "palavrasChave": [
+            "Eleições",
+            "Eleitoral",
+            "Votação",
+            "Voto",
+            "Urna",
+            "Plebiscito",
+            "Sufrágio"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei 9.504/1997, art. 72",
@@ -423,7 +575,22 @@
     },
     {
         "situacao": "Monitoramento de Navegação",
-        "palavrasChave": ["Monitoramento", "Registro", "Histórico", "Navegação", "Navegador", "Browser", "Chrome", "Firefox", "Edge", "Opera", "Safari", "Site", "Banco", "E-mail"],
+        "palavrasChave": [
+            "Monitoramento",
+            "Registro",
+            "Histórico",
+            "Navegação",
+            "Navegador",
+            "Browser",
+            "Chrome",
+            "Firefox",
+            "Edge",
+            "Opera",
+            "Safari",
+            "Site",
+            "Banco",
+            "E-mail"
+        ],
         "dispositivos": [
             {
                 "descricao": "Violação de direitos e garantias fundamentais previstos no art. 5º, incisos X e XII da Constituição Federal - Constituição Federal",
@@ -436,8 +603,20 @@
     },
     {
         "situacao": "Exposição de Dados Pessoais",
-        "palavrasChave": ["Identidade", "CPF", "E-mail", "Nome", "Endereço", "Religião", "Histórico Médico", "Prontuário", "Transferência Internacional"],
-        "referencias": ["ref5"],
+        "palavrasChave": [
+            "Identidade",
+            "CPF",
+            "E-mail",
+            "Nome",
+            "Endereço",
+            "Religião",
+            "Histórico Médico",
+            "Prontuário",
+            "Transferência Internacional"
+        ],
+        "referencias": [
+            "ref5"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei nº 13.709/2018 (LGPD)",
@@ -454,7 +633,18 @@
     },
     {
         "situacao": "Violação de Sistemas e Disseminação de Malware",
-        "palavrasChave": ["Violar", "Invadir", "Site", "WWW", "Web", "Disseminar", "Malware", "Vírus", "Trojan", "Worm"],
+        "palavrasChave": [
+            "Violar",
+            "Invadir",
+            "Site",
+            "WWW",
+            "Web",
+            "Disseminar",
+            "Malware",
+            "Vírus",
+            "Trojan",
+            "Worm"
+        ],
         "dispositivos": [
             {
                 "descricao": "Lei Complementar 840/2011, art 192 inciso V letra \"a\"",
@@ -467,7 +657,12 @@
     },
     {
         "situacao": "Exposição de dados de servidores",
-        "palavrasChave": ["Servidor", "Público", "Pessoal", "Cadastro"],
+        "palavrasChave": [
+            "Servidor",
+            "Público",
+            "Pessoal",
+            "Cadastro"
+        ],
         "dispositivos": [
             {
                 "descricao": "Repassar dados de servidores públicos sem autorização - Lei Complementar 840/2011, art 192 inciso V letra \"d\"",
@@ -480,7 +675,11 @@
     },
     {
         "situacao": "Ameaça",
-        "palavrasChave": ["Intimidação", "Coação", "Constrangimento"],
+        "palavrasChave": [
+            "Intimidação",
+            "Coação",
+            "Constrangimento"
+        ],
         "dispositivos": [
             {
                 "descricao": "Ameaça - Código Penal, art. 147",
@@ -493,7 +692,12 @@
     },
     {
         "situacao": "Apologia de crime ou criminoso",
-        "palavrasChave": ["Enaltecimento", "Exaltação", "Elogio", "Reverência"],
+        "palavrasChave": [
+            "Enaltecimento",
+            "Exaltação",
+            "Elogio",
+            "Reverência"
+        ],
         "dispositivos": [
             {
                 "descricao": "Apologia de crime ou criminoso - Código Penal, art. 287",
@@ -506,7 +710,13 @@
     },
     {
         "situacao": "Venda ilegal de medicamento",
-        "palavrasChave": ["Falsificação", "Remédio", "Droga", "Medicinal", "Terapêutico"],
+        "palavrasChave": [
+            "Falsificação",
+            "Remédio",
+            "Droga",
+            "Medicinal",
+            "Terapêutico"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsificação, corrupção, adulteração ou alteração de produto destinado a fins terapêuticos ou medicinais - Código Penal, art. 273, § 1º",
@@ -519,7 +729,18 @@
     },
     {
         "situacao": "Inserção de Dados Falsos",
-        "palavrasChave": ["Carteira de Trabalho", "Previdência Social", "Seguro", "Folha de Pagamento", "Contracheque", "Holerite", "Fraude", "Cadastro", "Registro", "Banco de Dados"],
+        "palavrasChave": [
+            "Carteira de Trabalho",
+            "Previdência Social",
+            "Seguro",
+            "Folha de Pagamento",
+            "Contracheque",
+            "Holerite",
+            "Fraude",
+            "Cadastro",
+            "Registro",
+            "Banco de Dados"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsificação de documento público - Código Penal, art. 297",
@@ -536,7 +757,15 @@
     },
     {
         "situacao": "Deepfake / Manipulação de Imagem ou Voz",
-        "palavrasChave": ["Inteligência Artificial", "Falsificação", "Vídeo", "Áudio", "Imagem", "Manipulação", "Deepfake"],
+        "palavrasChave": [
+            "Inteligência Artificial",
+            "Falsificação",
+            "Vídeo",
+            "Áudio",
+            "Imagem",
+            "Manipulação",
+            "Deepfake"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsidade ideológica - Código Penal, art. 299",
@@ -561,7 +790,15 @@
     },
     {
         "situacao": "Fraudes Eletrônicas com Pix / Meios de Pagamento Instantâneo",
-        "palavrasChave": ["Pix", "Pagamento Instantâneo", "Fraude", "Dispositivo Móvel", "Internet Banking", "QR Code", "Chave Pix"],
+        "palavrasChave": [
+            "Pix",
+            "Pagamento Instantâneo",
+            "Fraude",
+            "Dispositivo Móvel",
+            "Internet Banking",
+            "QR Code",
+            "Chave Pix"
+        ],
         "dispositivos": [
             {
                 "descricao": "Fraudes eletrônicas - Lei nº 14.155/2021 (alteração do Código Penal)",
@@ -582,7 +819,16 @@
     },
     {
         "situacao": "Crimes contra Infraestruturas Críticas de Informação",
-        "palavrasChave": ["Infraestrutura Crítica", "SCADA", "ICS", "Energia", "Telecomunicações", "Transporte", "Água", "Saúde"],
+        "palavrasChave": [
+            "Infraestrutura Crítica",
+            "SCADA",
+            "ICS",
+            "Energia",
+            "Telecomunicações",
+            "Transporte",
+            "Água",
+            "Saúde"
+        ],
         "dispositivos": [
             {
                 "descricao": "Estratégia Nacional de Segurança de Infraestruturas Críticas - Decreto nº 10.569/2020",
@@ -603,7 +849,15 @@
     },
     {
         "situacao": "Vazamento de Dados Genéticos / Biometria",
-        "palavrasChave": ["Dados Genéticos", "Biometria", "Dados Sensíveis", "DNA", "Impressão Digital", "Reconhecimento Facial", "Íris"],
+        "palavrasChave": [
+            "Dados Genéticos",
+            "Biometria",
+            "Dados Sensíveis",
+            "DNA",
+            "Impressão Digital",
+            "Reconhecimento Facial",
+            "Íris"
+        ],
         "dispositivos": [
             {
                 "descricao": "Tratamento de dados pessoais sensíveis - LGPD (Lei nº 13.709/2018), arts. 11 e 12",
@@ -624,7 +878,15 @@
     },
     {
         "situacao": "Crimes Relacionados a Inteligência Artificial",
-        "palavrasChave": ["Inteligência Artificial", "IA", "Machine Learning", "Algoritmo", "Automação", "Bias Algorítmico", "Decisão Automatizada"],
+        "palavrasChave": [
+            "Inteligência Artificial",
+            "IA",
+            "Machine Learning",
+            "Algoritmo",
+            "Automação",
+            "Bias Algorítmico",
+            "Decisão Automatizada"
+        ],
         "dispositivos": [
             {
                 "descricao": "Marco Legal da IA no Brasil - PL 2.338/2023 (em tramitação)",
@@ -645,6 +907,42 @@
         ],
         "tipo": "Atípico",
         "aspecto": "Autenticidade, Privacidade, Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Extorsão digital",
+        "palavrasChave": [
+            "Sextorsão",
+            "Extorsão"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Extorsão - Código Penal, art. 158",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158"
+            },
+            {
+                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem o consentimento da vítima. - Código Penal, art. 218-C",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art218c"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Privacidade, Dignidade, Autenticidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Assédio Sexual",
+        "palavrasChave": [
+            "Assédio",
+            "Hierarquia"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Assédio sexual - Código Penal, art. 216-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art216a"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Dignidade",
         "ambito": "Federal"
     }
 ]
