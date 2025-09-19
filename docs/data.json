@@ -944,5 +944,131 @@
         "tipo": "Atípico",
         "aspecto": "Dignidade",
         "ambito": "Federal"
+    },
+    {
+        "situacao": "Venda de produtos ilícitos em marketplaces virtuais",
+        "palavrasChave": [
+            "Marketplace",
+            "Dark Web",
+            "Deep Web",
+            "Drogas",
+            "Armas",
+            "Dados Pessoais",
+            "Mercado Negro",
+            "E-commerce Ilegal",
+            "Tráfico",
+            "Comércio Ilícito",
+            "Criptografia",
+            "Bitcoin",
+            "Anonimato"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Tráfico de drogas - Lei nº 11.343/2006, art. 33",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm#art33"
+            },
+            {
+                "descricao": "Financiamento do tráfico - Lei nº 11.343/2006, art. 34",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm#art34"
+            },
+            {
+                "descricao": "Comércio ilegal de arma de fogo - Estatuto do Desarmamento (Lei nº 10.826/2003), art. 17",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.826.htm#art17"
+            },
+            {
+                "descricao": "Tratamento de dados pessoais - LGPD (Lei nº 13.709/2018)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+            },
+            {
+                "descricao": "Organização criminosa - Lei nº 12.850/2013, art. 2º",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm#art2"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Violação de Política, Danos à Reputação, Confidencialidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Fraudes em certificados digitais / assinaturas eletrônicas falsas",
+        "palavrasChave": [
+            "Certificado Digital",
+            "Assinatura Eletrônica",
+            "ICP-Brasil",
+            "Autoridade Certificadora",
+            "Chave Privada",
+            "Chave Pública",
+            "PKI",
+            "Token",
+            "Smartcard",
+            "Falsificação Digital",
+            "Identidade Digital",
+            "Autenticação",
+            "Não Repúdio"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Infraestrutura de Chaves Públicas Brasileira - Medida Provisória nº 2.200-2/2001",
+                "url": "https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm"
+            },
+            {
+                "descricao": "Falsificação de documento particular - Código Penal, art. 298",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art298"
+            },
+            {
+                "descricao": "Falsidade ideológica - Código Penal, art. 299",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
+            },
+            {
+                "descricao": "Estelionato - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Autenticidade, Integridade, Não Repúdio",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Espionagem industrial / concorrencial",
+        "palavrasChave": [
+            "Espionagem Industrial",
+            "Concorrência Desleal",
+            "Segredo Industrial",
+            "Propriedade Intelectual",
+            "Trade Secrets",
+            "Know-how",
+            "Informações Confidenciais",
+            "Vantagem Competitiva",
+            "Engenharia Reversa",
+            "Interceptação",
+            "Sabotagem",
+            "Insider Threat",
+            "APT",
+            "Corporate Espionage"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Crime de concorrência desleal - Lei nº 9.279/1996 (Propriedade Industrial), art. 195",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9279.htm#art195"
+            },
+            {
+                "descricao": "Violação de direito autoral - Código Penal, art. 184",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art184"
+            },
+            {
+                "descricao": "Divulgação de segredo - Código Penal, art. 153",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art153"
+            },
+            {
+                "descricao": "Violação de sigilo funcional - Código Penal, art. 325",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art325"
+            },
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            }
+        ],
+        "tipo": "Misto",
+        "aspecto": "Confidencialidade, Integridade, Violação de Política",
+        "ambito": "Federal"
     }
 ]
