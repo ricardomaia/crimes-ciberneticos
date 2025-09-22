@@ -7,13 +7,6 @@
             "tipo": "legislacao",
             "ambito": "federal"
         },
-        "ref2": {
-            "titulo": "Cryptojacking: Mineração Não Autorizada de Criptomoedas",
-            "descricao": "Análise jurídica sobre o uso não autorizado de recursos computacionais para mineração de criptomoedas",
-            "url": "https://example.com/cryptojacking-analysis",
-            "tipo": "artigo",
-            "ambito": "tecnico"
-        },
         "ref3": {
             "titulo": "Estratégia Nacional de Segurança Cibernética",
             "descricao": "Decreto nº 10.222/2020 que institui a Estratégia Nacional de Segurança Cibernética",
@@ -22,11 +15,11 @@
             "ambito": "federal"
         },
         "ref4": {
-            "titulo": "Ataques de Negação de Serviço: Aspectos Técnicos e Jurídicos",
-            "descricao": "Estudo técnico sobre ataques DDoS e suas implicações legais",
-            "url": "https://example.com/ddos-study",
-            "tipo": "estudo",
-            "ambito": "tecnico"
+            "titulo": "Interrupção ou Perturbação de Serviço Informático",
+            "descricao": "Artigo 266 do Código Penal, que tipifica o crime de interromper ou perturbar serviço telemático ou de informação de utilidade pública, sendo o dispositivo legal aplicável aos ataques de Negação de Serviço (DoS/DDoS).",
+            "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266",
+            "tipo": "legislacao",
+            "ambito": "federal"
         },
         "ref5": {
             "titulo": "LGPD - Lei Geral de Proteção de Dados Pessoais",
@@ -64,10 +57,10 @@
             "ambito": "federal"
         },
         "ref10": {
-            "titulo": "Manual de Investigação de Crimes Cibernéticos",
-            "descricao": "Guia técnico para investigação de crimes digitais",
-            "url": "https://example.com/manual-investigacao",
-            "tipo": "manual",
+            "titulo": "Baleia azul: um jogo, vários crimes",
+            "descricao": "Artigo jurídico que analisa os vários crimes cometidos no contexto do desafio 'Baleia Azul', como incitação ao suicídio, lesão corporal e homicídio.",
+            "url": "https://jus.com.br/artigos/57258/baleia-azul-um-jogo-varios-crimes",
+            "tipo": "artigo",
             "ambito": "tecnico"
         }
     },

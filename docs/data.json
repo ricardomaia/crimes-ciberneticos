@@ -41,7 +41,8 @@
         "situacao": "Ransomware",
         "palavrasChave": [
             "Sequestro de Dados",
-            "Criptografia"
+            "Criptografia",
+            "WannaCry"
         ],
         "dispositivos": [
             {
@@ -122,11 +123,11 @@
     {
         "situacao": "Cryptojacking",
         "palavrasChave": [
-            "Mineração de criptomoedas sem autorização"
+            "Mineração de criptomoedas sem autorização",
+            "Furto de energia",
+            "Furto de memória"
         ],
-        "referencias": [
-            "ref2"
-        ],
+        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
@@ -143,7 +144,13 @@
     },
     {
         "situacao": "Phishing",
-        "palavrasChave": [],
+        "palavrasChave": [
+            "Enganar",
+            "Anexo malicioso",
+            "Site comprometido",
+            "Coleta de informação confidencial",
+            "Spoofing"
+        ],
         "dispositivos": [
             {
                 "descricao": "Estelionato / Fraude Eletrônica - Código Penal, art. 171",
@@ -215,6 +222,7 @@
             "Assédio",
             "Intimidação"
         ],
+        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Intimidação sistemática virtual - Código Penal, art. 146-A",
@@ -236,8 +244,13 @@
     {
         "situacao": "Stalking",
         "palavrasChave": [
-            "Perseguição"
+            "Perseguição",
+            "Ameaça à integridade",
+            "Restrição de locomoção",
+            "Perturbação da privacidade",
+            "Reiteradamente"
         ],
+        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Perseguição - Código Penal, art. 147-A",
@@ -318,12 +331,20 @@
         "situacao": "Incitação",
         "palavrasChave": [
             "Estimular",
-            "Incentivar"
+            "Incentivar",
+            "Baleia Azul"
+        ],
+        "referencias": [
+            "ref10"
         ],
         "dispositivos": [
             {
-                "descricao": "Incitação - Código Penal, art. 286",
+                "descricao": "Incitação ao crime - Código Penal, art. 286",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art286"
+            },
+            {
+                "descricao": "Induzimento, instigação ou auxílio a suicídio ou a automutilação - Código Penal, art. 122",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art122"
             }
         ],
         "tipo": "Atípico",
@@ -805,7 +826,7 @@
         "ambito": "Federal"
     },
     {
-        "situacao": "Fraudes Eletrônicas com Pix / Meios de Pagamento Instantâneo",
+        "situacao": "Fraude Eletrônica",
         "palavrasChave": [
             "Pix",
             "Pagamento Instantâneo",
@@ -813,24 +834,51 @@
             "Dispositivo Móvel",
             "Internet Banking",
             "QR Code",
-            "Chave Pix"
+            "Chave Pix",
+            "Redes sociais",
+            "Contatos telefônicos",
+            "Correio eletrônico fraudulento"
         ],
         "dispositivos": [
             {
-                "descricao": "Fraudes eletrônicas - Lei nº 14.155/2021 (alteração do Código Penal)",
-                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14155.htm"
-            },
-            {
-                "descricao": "Estelionato - Código Penal, art. 171",
+                "descricao": "Fraude Eletrônica - Código Penal, art. 171, § 2º-A",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
             },
             {
-                "descricao": "Furto mediante fraude - Código Penal, art. 155, § 4º, II",
-                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+                "descricao": "Causas de aumento de pena - Código Penal, art. 171, § 2º-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Lei nº 14.155/2021 (alteração do Código Penal)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14155.htm"
             }
         ],
         "tipo": "Típico",
         "aspecto": "Autenticidade, Integridade, Privacidade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Furto Cibernético",
+        "palavrasChave": [
+            "Subtração de valores",
+            "Transferência bancária sem consentimento",
+            "Clonagem de cartão",
+            "Burlar vigilância",
+            "Violação de mecanismo de segurança",
+            "Programa malicioso"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Furto mediante fraude por meio de dispositivo eletrônico - Código Penal, art. 155, § 4º-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            },
+            {
+                "descricao": "Causas de aumento de pena - Código Penal, art. 155, § 4º-C",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Integridade, Confidencialidade, Disponibilidade",
         "ambito": "Federal"
     },
     {
@@ -1085,6 +1133,31 @@
         ],
         "tipo": "Misto",
         "aspecto": "Confidencialidade, Integridade, Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Violência Psicológica contra a Mulher",
+        "palavrasChave": [
+            "Dano emocional",
+            "Ameaça",
+            "Constrangimento",
+            "Humilhação",
+            "Manipulação",
+            "Isolamento",
+            "Chantagem",
+            "Ridicularização",
+            "Limitação do direito de ir e vir",
+            "Saúde psicológica",
+            "Autodeterminação"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Causar dano emocional à mulher - Código Penal, art. 147-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm#art147b"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Dignidade, Integridade Psicológica",
         "ambito": "Federal"
     }
 ]
