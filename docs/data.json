@@ -121,25 +121,26 @@
         "ambito": "Federal"
     },
     {
-        "situacao": "Cryptojacking",
+        "situacao": "Cryptojacking (Mineração não autorizada)",
         "palavrasChave": [
             "Mineração de criptomoedas sem autorização",
-            "Furto de energia",
-            "Furto de memória"
+            "Uso não autorizado de recursos computacionais",
+            "Malware de mineração",
+            "Consumo indevido de processamento",
+            "CPU",
+            "GPU",
+            "Recursos computacionais",
+            "JavaScript malicioso",
+            "Browser mining"
         ],
-        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
-            },
-            {
-                "descricao": "Furto de Energia Elétrica - Código Penal, art. 155 §3º 2",
-                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
             }
         ],
-        "tipo": "Misto",
-        "aspecto": "Violação de Política",
+        "tipo": "Típico",
+        "aspecto": "Integridade, Disponibilidade, Violação de Política",
         "ambito": "Federal"
     },
     {
@@ -1158,6 +1159,115 @@
         ],
         "tipo": "Típico",
         "aspecto": "Dignidade, Integridade Psicológica",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Favorecimento da prostituição digital",
+        "palavrasChave": [
+            "Prostituição",
+            "Exploração sexual",
+            "Aliciamento online",
+            "Plataformas digitais",
+            "Redes sociais",
+            "Aplicativos de encontro",
+            "Webcam",
+            "Sites de acompanhantes",
+            "Cafetinagem digital"
+        ],
+        "referencias": [],
+        "dispositivos": [
+            {
+                "descricao": "Favorecimento da prostituição ou outra forma de exploração sexual - Código Penal, art. 228",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art228"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Violação de Política",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Plágio digital",
+        "palavrasChave": [
+            "Cópia não autorizada",
+            "Direitos autorais",
+            "Propriedade intelectual",
+            "Reprodução indevida",
+            "Conteúdo sem citação",
+            "Obra derivada",
+            "Trabalhos acadêmicos",
+            "Textos",
+            "Imagens",
+            "Vídeos"
+        ],
+        "referencias": [],
+        "dispositivos": [
+            {
+                "descricao": "Violação de direito autoral - Lei nº 9.610/1998, art. 184",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm"
+            },
+            {
+                "descricao": "Violação de direito autoral - Código Penal, art. 184",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art184"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "Conformidade, Integridade",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Ultraje a culto religioso digital",
+        "palavrasChave": [
+            "Ofensa religiosa",
+            "Escárnio",
+            "Vilipêndio",
+            "Perturbação de culto",
+            "Comunidades virtuais",
+            "Redes sociais",
+            "Memes ofensivos",
+            "Discriminação religiosa",
+            "Intolerância religiosa"
+        ],
+        "referencias": [],
+        "dispositivos": [
+            {
+                "descricao": "Ultraje a culto e impedimento ou perturbação de ato a ele relativo - Código Penal, art. 208",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art208"
+            }
+        ],
+        "tipo": "Atípico",
+        "aspecto": "N/A",
+        "ambito": "Federal"
+    },
+    {
+        "situacao": "Estupro virtual",
+        "palavrasChave": [
+            "Constrangimento sexual",
+            "Chantagem sexual",
+            "Videoconferência forçada",
+            "Webcam",
+            "Ameaça digital",
+            "Coação sexual online",
+            "Ato libidinoso virtual",
+            "Sextorsão",
+            "Refém virtual"
+        ],
+        "referencias": [],
+        "dispositivos": [
+            {
+                "descricao": "Estupro - Código Penal, art. 213",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art213"
+            },
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Extorsão - Código Penal, art. 158",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158"
+            }
+        ],
+        "tipo": "Típico",
+        "aspecto": "Privacidade, Confidencialidade",
         "ambito": "Federal"
     }
 ]
