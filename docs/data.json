@@ -15,7 +15,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Autenticidade, Autorização e Responsabilização, Não-repúdio",
         "ambito": "Federal"
     },
@@ -33,7 +32,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Autenticidade, Autorização e Responsabilização",
         "ambito": "Federal"
     },
@@ -58,7 +56,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Conformidade",
         "ambito": "Federal"
     },
@@ -83,7 +80,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Integridade, Confidencialidade, Disponibilidade",
         "ambito": "Federal"
     },
@@ -116,7 +112,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art151"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Confidencialidade, Privacidade",
         "ambito": "Federal"
     },
@@ -139,7 +134,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Integridade, Disponibilidade, Violação de Política",
         "ambito": "Federal"
     },
@@ -166,7 +160,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade, Autoria, Confidencialidade, Integridade",
         "ambito": "Federal"
     },
@@ -209,7 +202,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10222.htm"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Disponibilidade",
         "ambito": "Federal"
     },
@@ -238,7 +230,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Privacidade, Proteção de Vulneráveis",
         "ambito": "Federal"
     },
@@ -258,7 +249,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147a"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Privacidade",
         "ambito": "Federal"
     },
@@ -275,7 +265,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm#art20"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -290,7 +279,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art138"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -307,7 +295,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art140"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -324,7 +311,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -348,7 +334,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art122"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -365,7 +350,6 @@
                 "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1641437&filename=Avulso%20PL%209554/2018"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade",
         "ambito": "Federal"
     },
@@ -382,7 +366,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art307"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade",
         "ambito": "Federal"
     },
@@ -401,7 +384,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art299"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade",
         "ambito": "Federal"
     },
@@ -423,7 +405,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art153"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Confidencialidade",
         "ambito": "Federal"
     },
@@ -443,7 +424,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art325"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Confidencialidade",
         "ambito": "Federal"
     },
@@ -463,7 +443,6 @@
                 "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Confidencialidade",
         "ambito": "Distrito Federal"
     },
@@ -480,7 +459,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art184"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Violação de Política, Danos à Reputação, Conformidade, Integridade",
         "ambito": "Federal"
     },
@@ -507,7 +485,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Violação de Política",
         "ambito": "Federal"
     },
@@ -528,7 +505,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Violação de Política, Danos à Reputação",
         "ambito": "Federal"
     },
@@ -546,7 +522,6 @@
                 "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art190"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Violação de Política",
         "ambito": "Distrito Federal"
     },
@@ -566,7 +541,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art313b"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Confidencialidade, Integridade, Disponibilidade, Violação de Política",
         "ambito": "Federal"
     },
@@ -586,7 +560,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art313a"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Confidencialidade, Integridade, Disponibilidade, Violação de Política",
         "ambito": "Federal"
     },
@@ -607,7 +580,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art72"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Confidencialidade, Integridade",
         "ambito": "Federal"
     },
@@ -635,7 +607,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art5"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Privacidade, Violação de Política, Danos à Reputação",
         "ambito": "Federal"
     },
@@ -665,7 +636,6 @@
                 "url": "https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/international-affairs"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Privacidade, Confidencialidade, Finalidade/Legitimidade, Minimização de Dados, Transparência, Conformidade",
         "ambito": "Federal"
     },
@@ -689,7 +659,6 @@
                 "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Violação de Política",
         "ambito": "Distrito Federal"
     },
@@ -707,7 +676,6 @@
                 "url": "https://www.sinj.df.gov.br/sinj/Norma/70196/Lei_Complementar_840_23_12_2011.html#titVI_capII_art192"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Violação de Política",
         "ambito": "Distrito Federal"
     },
@@ -724,7 +692,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -742,7 +709,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art287"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -761,7 +727,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art273"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -789,7 +754,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art298"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Autenticidade, Integridade",
         "ambito": "Federal"
     },
@@ -822,7 +786,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241a"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade, Privacidade",
         "ambito": "Federal"
     },
@@ -854,7 +817,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14155.htm"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Autenticidade, Integridade, Privacidade, Não-repúdio, Conformidade",
         "ambito": "Federal"
     },
@@ -878,7 +840,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Integridade, Confidencialidade, Disponibilidade",
         "ambito": "Federal"
     },
@@ -908,7 +869,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Disponibilidade, Integridade",
         "ambito": "Federal"
     },
@@ -937,7 +897,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm#art48"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Confidencialidade, Privacidade",
         "ambito": "Federal"
     },
@@ -970,7 +929,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Autenticidade, Privacidade, Violação de Política, Transparência, Responsabilização, Finalidade/Legitimidade",
         "ambito": "Federal"
     },
@@ -990,7 +948,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art218c"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Privacidade, Dignidade, Autenticidade",
         "ambito": "Federal"
     },
@@ -1006,7 +963,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art216a"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Dignidade",
         "ambito": "Federal"
     },
@@ -1049,7 +1005,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm#art2"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Violação de Política, Danos à Reputação, Confidencialidade",
         "ambito": "Federal"
     },
@@ -1088,7 +1043,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Autenticidade, Integridade, Não Repúdio",
         "ambito": "Federal"
     },
@@ -1132,7 +1086,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
-        "tipo": "Misto",
         "aspecto": "Confidencialidade, Integridade, Violação de Política",
         "ambito": "Federal"
     },
@@ -1157,7 +1110,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm#art147b"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Dignidade, Integridade Psicológica",
         "ambito": "Federal"
     },
@@ -1181,7 +1133,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art228"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Violação de Política",
         "ambito": "Federal"
     },
@@ -1210,7 +1161,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art184"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "Conformidade, Integridade",
         "ambito": "Federal"
     },
@@ -1234,7 +1184,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art208"
             }
         ],
-        "tipo": "Atípico",
         "aspecto": "N/A",
         "ambito": "Federal"
     },
@@ -1266,7 +1215,6 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158"
             }
         ],
-        "tipo": "Típico",
         "aspecto": "Privacidade, Confidencialidade",
         "ambito": "Federal"
     }

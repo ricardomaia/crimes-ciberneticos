@@ -30,7 +30,6 @@ function converterDados(jsonData) {
         return [
             situacaoHtml,
             dispositivosHtml,
-            item.tipo,
             item.aspecto,
             item.ambito
         ];
@@ -90,7 +89,7 @@ function inicializarTabela() {
                     url: '//cdn.datatables.net/plug-ins/2.0.2/i18n/pt-BR.json',
                 },
                 columnDefs: [{ className: 'situacao', targets: [0] }, { className: 'dispositivo', targets: [1] }],
-                order: [[4, 'desc'], [0, 'asc']],
+                order: [[3, 'desc'], [0, 'asc']],
                 pageLength: 8,
                 select: true
             });
