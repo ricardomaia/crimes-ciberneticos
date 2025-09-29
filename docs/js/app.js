@@ -4,6 +4,23 @@ function gerarPalavrasChave(palavrasChave) {
     return `<i class='nota'>${palavrasChave.join(', ')}</i>`;
 }
 
+// Função para gerar HTML dos comentários em accordion
+function gerarComentarios(comentarios, index) {
+    if (!comentarios || comentarios.trim() === '') return '';
+
+    return `
+        <div class="comentarios-accordion">
+            <button class="comentarios-toggle" onclick="toggleComentarios(${index})">
+                <i class="fas fa-chevron-right"></i>
+                Comentários
+            </button>
+            <div class="comentarios-content" id="comentarios-${index}">
+                ${comentarios}
+            </div>
+        </div>
+    `;
+}
+
 // Função para gerar HTML das referências
 function gerarReferencias(referencias) {
     if (!referencias || referencias.length === 0) return '';
@@ -19,11 +36,12 @@ function gerarDispositivos(dispositivos) {
 
 // Função para converter dados JSON em formato de array para DataTable
 function converterDados(jsonData) {
-    return jsonData.map(item => {
+    return jsonData.map((item, index) => {
         const situacaoHtml = item.situacao +
             gerarReferencias(item.referencias) +
             '<br />' +
-            gerarPalavrasChave(item.palavrasChave);
+            gerarPalavrasChave(item.palavrasChave) +
+            gerarComentarios(item.comentarios, index);
 
         const dispositivosHtml = gerarDispositivos(item.dispositivos);
 
@@ -166,6 +184,20 @@ function inicializarCookieBanner() {
             }
         });
     });
+}
+
+// Função para controlar o toggle dos comentários
+function toggleComentarios(index) {
+    const content = document.getElementById(`comentarios-${index}`);
+    const toggle = content.previousElementSibling;
+
+    if (content.classList.contains('show')) {
+        content.classList.remove('show');
+        toggle.classList.remove('expanded');
+    } else {
+        content.classList.add('show');
+        toggle.classList.add('expanded');
+    }
 }
 
 // Inicialização da aplicação

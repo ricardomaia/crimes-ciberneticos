@@ -288,3 +288,80 @@ i.nota {
     justify-content: center;
   }
 }
+
+/* Accordion Styles for Comments */
+.comentarios-accordion {
+  margin-top: 10px;
+}
+
+.comentarios-toggle {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.85em;
+  padding: 4px 8px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.comentarios-toggle:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+.comentarios-toggle i {
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.comentarios-toggle.expanded i {
+  transform: rotate(90deg);
+}
+
+.comentarios-content {
+  display: none;
+  margin-top: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-left: 3px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.85em;
+  line-height: 1.4;
+  color: #495057;
+  animation: slideDown 0.2s ease-out;
+}
+
+.comentarios-content.show {
+  display: block;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Dark theme adjustments for comments */
+.ui-dark-theme .comentarios-content {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  border-left-color: #4299e1;
+}
+
+.ui-dark-theme .comentarios-toggle {
+  color: #4299e1;
+}
+
+.ui-dark-theme .comentarios-toggle:hover {
+  background-color: #2d3748;
+  color: #63b3ed;
+}

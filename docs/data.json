@@ -16,7 +16,8 @@
             }
         ],
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Autenticidade, Autorização e Responsabilização, Não-repúdio",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Malware é um termo genérico para software malicioso que inclui vírus, trojans, worms, spyware, ransomware e outros tipos de código malicioso. A tipificação penal depende do tipo específico de malware e das consequências de sua execução. É importante documentar o comportamento do malware e os danos causados para adequada tipificação."
     },
     {
         "situacao": "Hacking",
@@ -33,7 +34,8 @@
             }
         ],
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Autenticidade, Autorização e Responsabilização",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Para configurar o crime de invasão de dispositivo informático é necessário demonstrar que houve acesso não autorizado a sistema informático. É importante preservar logs de acesso, evidências forenses e documentar os métodos utilizados na invasão. A mera tentativa de acesso já pode configurar o crime."
     },
     {
         "situacao": "Ransomware",
@@ -57,7 +59,8 @@
             }
         ],
         "aspecto": "Integridade, Confidencialidade, Disponibilidade, Conformidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Ransomware é um tipo específico de malware que criptografa arquivos do sistema e exige pagamento para descriptografá-los. Múltiplas tipificações podem ser aplicadas: art. 154-A (invasão), art. 158 (extorsão) e art. 265 (quando afeta serviços públicos). Para investigação, é crucial preservar: logs de sistema, amostras do malware, mensagens de resgate, evidências de pagamento (se houver) e impacto nos serviços. A recuperação de dados deve ser tentada antes de considerar o pagamento do resgate."
     },
     {
         "situacao": "Desfiguração de Site",
@@ -161,7 +164,8 @@
             }
         ],
         "aspecto": "Autenticidade, Autoria, Confidencialidade, Integridade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Phishing envolve a criação de comunicações fraudulentas para obter informações confidenciais. A tipificação pode variar entre estelionato (se houve prejuízo), furto (se houve subtração de valores) ou falsidade ideológica (pela falsificação da identidade). É fundamental preservar os e-mails, sites falsos e documentar o modus operandi."
     },
     {
         "situacao": "Negação de Serviço",
@@ -637,7 +641,8 @@
             }
         ],
         "aspecto": "Privacidade, Confidencialidade, Finalidade/Legitimidade, Minimização de Dados, Transparência, Conformidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A exposição de dados pessoais pode configurar violação à LGPD, especialmente se envolver dados sensíveis. É importante identificar se houve vazamento acidental, negligência no tratamento ou exposição intencional. Dados sensíveis (origem racial, convicção religiosa, dados de saúde, biométricos) têm proteção especial. Notificar a ANPD em até 72h se houver alto risco."
     },
     {
         "situacao": "Violação de Sistemas e Disseminação de Malware",
@@ -731,7 +736,7 @@
         "ambito": "Federal"
     },
     {
-        "situacao": "Inserção de Dados Falsos",
+        "situacao": "Falsificação de Documento",
         "palavrasChave": [
             "Carteira de Trabalho",
             "Previdência Social",
@@ -752,10 +757,19 @@
             {
                 "descricao": "Falsificação de documento particular - Código Penal, art. 298",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art298"
+            },
+            {
+                "descricao": "Falsificação do selo ou sinal público - Código Penal, art. 296, § 1º",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art296"
+            },
+            {
+                "descricao": "Fazer uso de qualquer dos papéis falsificados ou alterados - Código Penal, art. 304",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art304"
             }
         ],
         "aspecto": "Autenticidade, Integridade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A posse de documentos falsos constitui crime consumado quando o agente os fabricou, consumando-se a falsificação (arts. 296 ou 297 do CP) independentemente de uso posterior. Configura tentativa de uso de documento falso (art. 304 do CP) quando acompanhada de atos inequívocos de execução que demonstrem a iminência da utilização fraudulenta, como o porte do documento em fila de repartição pública ou sua apresentação frustrada a autoridade. A mera posse, desvinculada de tais elementos, permanece como ato preparatório atípico e impunível."
     },
     {
         "situacao": "Deepfake / Manipulação de Imagem ou Voz",
