@@ -618,12 +618,22 @@
             "Nudez"
         ],
         "referencias": [
-            "ref13"
+            "ref13",
+            "ref18",
+            "ref19"
         ],
         "dispositivos": [
             {
-                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem o consentimento da vítima. - Código Penal, art. 218-C",
+                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem consentimento - Código Penal, art. 218-C",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art218c"
+            },
+            {
+                "descricao": "Lei nº 13.718/2018 (incluiu o art. 218-C no Código Penal)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13718.htm"
+            },
+            {
+                "descricao": "Lei nº 15.280/2025 (majorou a pena do art. 218-C)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15280.htm"
             },
             {
                 "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211, de 17 de setembro de 2025",
@@ -632,7 +642,7 @@
         ],
         "aspecto": "Violação de Política, Danos à Reputação",
         "ambito": "Federal",
-        "comentarios": "A divulgação não consentida de cena íntima pode configurar o art. 218-C do Código Penal, sem prejuízo de crimes contra a honra, ameaça, extorsão, perseguição ou violência psicológica, conforme o contexto. Se houver criança ou adolescente, aplicam-se também os dispositivos específicos do ECA."
+        "comentarios": "A divulgação não consentida de cena íntima pode configurar o art. 218-C do Código Penal, incluído pela Lei nº 13.718/2018. A Lei nº 15.280/2025 majorou a pena para reclusão de 4 a 10 anos e multa, se o fato não constituir crime mais grave. O enquadramento pode concorrer com crimes contra a honra, ameaça, extorsão, perseguição ou violência psicológica, conforme o contexto."
     },
     {
         "situacao": "Conteúdo pornográfico, violento ou discriminatório",
@@ -1285,13 +1295,17 @@
             "Sextorsão",
             "Extorsão"
         ],
+        "referencias": [
+            "ref18",
+            "ref19"
+        ],
         "dispositivos": [
             {
                 "descricao": "Extorsão - Código Penal, art. 158",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art158"
             },
             {
-                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem o consentimento da vítima. - Código Penal, art. 218-C",
+                "descricao": "Divulgação de cena de sexo, pornografia ou estupro de vulnerável ou sem consentimento - Código Penal, art. 218-C",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art218c"
             }
         ],
