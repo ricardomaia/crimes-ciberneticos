@@ -112,12 +112,37 @@ function inicializarTabela() {
                 select: true
             });
 
+            adicionarBotaoLimparBusca(dt);
+
             // Carrega as referências
             carregarReferencias();
         })
         .catch(error => {
             console.error('Erro ao carregar os dados:', error);
         });
+}
+
+// Adiciona botão para limpar a busca global do DataTables
+function adicionarBotaoLimparBusca(dt) {
+    const searchInput = $('#tbLegislacao_wrapper input[type="search"]');
+
+    if (searchInput.length === 0 || $('#clear-search').length > 0) return;
+
+    const clearButton = $('<button>', {
+        id: 'clear-search',
+        type: 'button',
+        class: 'clear-search-btn',
+        text: 'Limpar',
+        'aria-label': 'Limpar busca'
+    });
+
+    clearButton.click(function() {
+        searchInput.val('');
+        dt.search('').draw();
+        searchInput.trigger('input').focus();
+    });
+
+    searchInput.after(clearButton);
 }
 
 // Função para controle do botão "voltar ao topo"
@@ -186,6 +211,22 @@ function inicializarCookieBanner() {
     });
 }
 
+// Função para exibir a política de cookies e privacidade sob demanda
+function inicializarPoliticaPrivacidade() {
+    $('.privacy-policy-link').click(function(e) {
+        const section = $('#politica-privacidade');
+
+        if (section.length === 0) return;
+
+        e.preventDefault();
+        section.prop('hidden', false).addClass('show');
+
+        $('html, body').animate({
+            scrollTop: section.offset().top - 20
+        }, 'fast', 'swing');
+    });
+}
+
 // Função para controlar o toggle dos comentários
 function toggleComentarios(index) {
     const content = document.getElementById(`comentarios-${index}`);
@@ -205,4 +246,5 @@ $(document).ready(function() {
     inicializarTabela();
     inicializarBotaoTopo();
     inicializarCookieBanner();
+    inicializarPoliticaPrivacidade();
 });

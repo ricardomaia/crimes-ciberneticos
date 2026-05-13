@@ -17,6 +17,8 @@ Todas as mudanças relevantes deste projeto devem ser registradas aqui, agrupada
   - `Violência política de gênero digital`
   - `Apostas online fraudulentas / Manipulação em plataformas digitais`
 - Enriquecidos comentários jurídicos em situações já existentes, incluindo cyberbullying, stalking, fake news, pedofilia, pornografia não consentida, deepfake, crimes relacionados a IA, extorsão digital, marketplaces ilícitos, certificados digitais, espionagem industrial e violência psicológica contra a mulher.
+- Enriquecidas palavras-chave populares para facilitar buscas por termos usados por vítimas e imprensa, mantendo seleção enxuta para evitar repetição excessiva, como `Jogo do Tigrinho`, `Fortune Tiger`, `golpe do Pix`, `falsa central`, `golpe do WhatsApp`, `SIM swap`, `nudes vazados` e `site falso`.
+- Ajustada a interface para ocultar a seção de política de cookies e privacidade por padrão, exibindo-a apenas pelo link no rodapé, e adicionado botão para limpar a busca da tabela.
 - Removidos arrays `referencias: []` vazios, preservando a separação por âmbito das entradas de `Compartilhamento de senha`.
 - Atualizado `docs/ref.json` com novas referências legislativas:
   - `ref11`: Lei nº 15.397/2026

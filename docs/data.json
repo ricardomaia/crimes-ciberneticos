@@ -150,7 +150,11 @@
             "Spoofing",
             "E-mail fraudulento",
             "Duplicação de dispositivo eletrônico",
-            "Aplicação de internet"
+            "Aplicação de internet",
+            "Smishing",
+            "Vishing",
+            "Link falso",
+            "Site falso"
         ],
         "referencias": [
             "ref11"
@@ -286,7 +290,8 @@
             "Dados pessoais",
             "Dados sensíveis",
             "Assédio coordenado",
-            "Vazamento intencional"
+            "Vazamento intencional",
+            "Dados vazados"
         ],
         "referencias": [
             "ref5"
@@ -615,7 +620,9 @@
         "palavrasChave": [
             "Revenge Porn",
             "Pornografia de Vingança",
-            "Nudez"
+            "Nudez",
+            "Nudes vazados",
+            "Divulgação de intimidade"
         ],
         "referencias": [
             "ref13",
@@ -947,7 +954,9 @@
             "Áudio",
             "Imagem",
             "Manipulação",
-            "Deepfake"
+            "Deepfake",
+            "IA generativa",
+            "Voz clonada"
         ],
         "referencias": [
             "ref13"
@@ -989,7 +998,13 @@
             "Correio eletrônico fraudulento",
             "Duplicação de dispositivo eletrônico",
             "Aplicação de internet",
-            "Idoso"
+            "Idoso",
+            "Golpe do Pix",
+            "Falso boleto",
+            "Falsa central",
+            "Golpe do motoboy",
+            "Golpe do QR Code",
+            "Golpe da mão fantasma"
         ],
         "referencias": [
             "ref11"
@@ -1057,7 +1072,10 @@
             "Carteira digital",
             "Pirâmide financeira",
             "Investimento fraudulento",
-            "Lavagem de dinheiro"
+            "Lavagem de dinheiro",
+            "Urubu do Pix",
+            "Sinais de trade",
+            "NFT"
         ],
         "referencias": [
             "ref14"
@@ -1090,6 +1108,9 @@
             "Mensageiro instantâneo",
             "Conta comprometida",
             "Golpe do contato",
+            "Golpe do WhatsApp",
+            "Novo número",
+            "Falso parente",
             "MFA",
             "Autenticação"
         ],
@@ -1125,7 +1146,9 @@
             "Autenticação de dois fatores",
             "Recuperação de senha",
             "Operadora",
-            "Conta bancária"
+            "Conta bancária",
+            "Troca de chip",
+            "Portabilidade indevida"
         ],
         "referencias": [
             "ref11"
@@ -1293,7 +1316,9 @@
         "situacao": "Extorsão digital",
         "palavrasChave": [
             "Sextorsão",
-            "Extorsão"
+            "Extorsão",
+            "Golpe dos nudes",
+            "Chantagem com nudes"
         ],
         "referencias": [
             "ref18",
@@ -1380,14 +1405,22 @@
         "palavrasChave": [
             "Apostas online",
             "Bet",
+            "Bets",
             "Apostas de quota fixa",
+            "Cassino online",
+            "Jogo do Tigrinho",
+            "Fortune Tiger",
+            "Caça-níquel online",
             "Manipulação de resultado",
             "Corrupção esportiva",
             "Operador irregular",
             "Conta de pagamento",
             "Transação de aposta",
             "Fraude em aposta",
-            "Evento virtual"
+            "Evento virtual",
+            "Sinais do Tigrinho",
+            "Horários pagantes",
+            "Plataforma bugada"
         ],
         "referencias": [
             "ref16",

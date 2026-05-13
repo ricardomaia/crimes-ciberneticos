@@ -1,19 +1,39 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Crimes Cibernéticos no Brasil",
+    "short_name": "Crimes Cibernéticos",
+    "description": "Base de consulta sobre crimes cibernéticos, legislação brasileira e possíveis enquadramentos jurídicos.",
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "id": "/",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "theme_color": "#efefef",
+    "background_color": "#ffffff",
+    "categories": [
+        "education",
+        "reference",
+        "security"
+    ],
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
         }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }

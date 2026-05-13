@@ -50,6 +50,20 @@ header a h1 {
   margin-bottom: 0em;
 }
 
+.clear-search-btn {
+  margin-left: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #6c757d;
+  border-radius: 4px;
+  background: #f8f9fa;
+  color: #333;
+  cursor: pointer;
+}
+
+.clear-search-btn:hover {
+  background: #e9ecef;
+}
+
 #toTop {
   display: inline-block;
   background-color: #007bff;
@@ -271,6 +285,14 @@ i.nota {
 
 .cookie-link:hover {
   color: #ffed4e;
+}
+
+.privacy-policy-section {
+  margin-top: 2rem;
+}
+
+.privacy-policy-section[hidden] {
+  display: none;
 }
 
 /* Responsive adjustments */
