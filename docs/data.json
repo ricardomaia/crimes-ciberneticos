@@ -147,11 +147,17 @@
             "Anexo malicioso",
             "Site comprometido",
             "Coleta de informação confidencial",
-            "Spoofing"
+            "Spoofing",
+            "E-mail fraudulento",
+            "Duplicação de dispositivo eletrônico",
+            "Aplicação de internet"
+        ],
+        "referencias": [
+            "ref11"
         ],
         "dispositivos": [
             {
-                "descricao": "Estelionato / Fraude Eletrônica - Código Penal, art. 171",
+                "descricao": "Estelionato / Fraude eletrônica - Código Penal, art. 171, § 2º-A",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
             },
             {
@@ -165,7 +171,7 @@
         ],
         "aspecto": "Autenticidade, Autoria, Confidencialidade, Integridade",
         "ambito": "Federal",
-        "comentarios": "Phishing envolve a criação de comunicações fraudulentas para obter informações confidenciais. A tipificação pode variar entre estelionato (se houve prejuízo), furto (se houve subtração de valores) ou falsidade ideológica (pela falsificação da identidade). É fundamental preservar os e-mails, sites falsos e documentar o modus operandi."
+        "comentarios": "Phishing envolve a criação de comunicações fraudulentas para obter informações confidenciais. A Lei nº 15.397/2026 atualizou o art. 171, § 2º-A, para abranger fraude cometida com informações fornecidas pela vítima ou por terceiro induzido a erro por redes sociais, contatos telefônicos, e-mail fraudulento, duplicação de dispositivo eletrônico ou aplicação de internet, ou meio fraudulento análogo. A tipificação pode variar entre estelionato, furto ou falsidade ideológica conforme o resultado e o modo de execução."
     },
     {
         "situacao": "Negação de Serviço",
@@ -190,11 +196,16 @@
         ],
         "referencias": [
             "ref3",
-            "ref4"
+            "ref4",
+            "ref11"
         ],
         "dispositivos": [
             {
                 "descricao": "Interrupção ou perturbação de serviço informático, telemático ou de informação - Código Penal, art. 266",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266"
+            },
+            {
+                "descricao": "Pena em dobro por subtração, dano ou destruição de equipamento de telecomunicações - Código Penal, art. 266, § 2º, II",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266"
             },
             {
@@ -207,7 +218,8 @@
             }
         ],
         "aspecto": "Disponibilidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 15.397/2026 majorou a pena do art. 266 do Código Penal para reclusão de 2 a 4 anos e multa, e previu aplicação em dobro quando a interrupção ou perturbação ocorrer mediante subtração, dano ou destruição de equipamento instalado em estrutura utilizada para serviços de telecomunicações."
     },
     {
         "situacao": "Cyberbullying",
@@ -219,7 +231,10 @@
             "Assédio",
             "Intimidação"
         ],
-        "referencias": [],
+        "referencias": [
+            "ref12",
+            "ref13"
+        ],
         "dispositivos": [
             {
                 "descricao": "Intimidação sistemática virtual - Código Penal, art. 146-A",
@@ -235,7 +250,8 @@
             }
         ],
         "aspecto": "Privacidade, Proteção de Vulneráveis",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A intimidação sistemática virtual exige conduta intencional e repetitiva em ambiente digital, como redes sociais, aplicativos, jogos on-line ou transmissão em tempo real. A Lei nº 14.811/2024 tipificou o cyberbullying no art. 146-A do Código Penal, sem prejuízo de enquadramento mais grave quando houver ameaça, racismo, crimes sexuais, induzimento à automutilação ou outros delitos."
     },
     {
         "situacao": "Stalking",
@@ -246,7 +262,9 @@
             "Perturbação da privacidade",
             "Reiteradamente"
         ],
-        "referencias": [],
+        "referencias": [
+            "ref13"
+        ],
         "dispositivos": [
             {
                 "descricao": "Perseguição - Código Penal, art. 147-A",
@@ -254,7 +272,46 @@
             }
         ],
         "aspecto": "Privacidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "O crime de perseguição exige reiteração e deve ser avaliado pelo impacto sobre liberdade, privacidade ou integridade psicológica da vítima. Em contexto digital, pode ocorrer por mensagens repetidas, monitoramento de perfis, criação de contas falsas, exposição de dados, contato com terceiros ou vigilância por aplicativos."
+    },
+    {
+        "situacao": "Doxxing / Exposição maliciosa de dados pessoais",
+        "palavrasChave": [
+            "Doxxing",
+            "Exposição de dados",
+            "CPF",
+            "Endereço",
+            "Telefone",
+            "Dados pessoais",
+            "Dados sensíveis",
+            "Assédio coordenado",
+            "Vazamento intencional"
+        ],
+        "referencias": [
+            "ref5"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "LGPD - Lei nº 13.709/2018",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+            },
+            {
+                "descricao": "Divulgação de segredo - Código Penal, art. 153",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art153"
+            },
+            {
+                "descricao": "Perseguição - Código Penal, art. 147-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147a"
+            },
+            {
+                "descricao": "Ameaça - Código Penal, art. 147",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art147"
+            }
+        ],
+        "aspecto": "Privacidade, Confidencialidade, Integridade Psicológica",
+        "ambito": "Federal",
+        "comentarios": "Doxxing não é tipo penal autônomo geral, mas pode envolver divulgação de segredo, ameaça, perseguição, crimes contra a honra, violação de dados pessoais e responsabilidade administrativa pela LGPD. O contexto de assédio coordenado e o risco concreto à vítima são centrais para o enquadramento."
     },
     {
         "situacao": "Racismo",
@@ -350,12 +407,25 @@
         ],
         "dispositivos": [
             {
-                "descricao": "Projeto de Lei",
-                "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1641437&filename=Avulso%20PL%209554/2018"
+                "descricao": "Calúnia - Código Penal, art. 138",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art138"
+            },
+            {
+                "descricao": "Difamação - Código Penal, art. 139",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art139"
+            },
+            {
+                "descricao": "Estelionato - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Divulgação de fatos sabidamente inverídicos na propaganda eleitoral - Código Eleitoral, art. 323",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm#art323"
             }
         ],
         "aspecto": "Autenticidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Não há tipo penal geral e autônomo de 'fake news' no Brasil. O enquadramento depende do conteúdo, finalidade e dano: pode envolver crimes contra a honra, estelionato, incitação, racismo, ameaça, crimes eleitorais ou responsabilidade civil e administrativa."
     },
     {
         "situacao": "Falsa identidade",
@@ -475,6 +545,9 @@
             "Criança",
             "Danos à Reputação"
         ],
+        "referencias": [
+            "ref13"
+        ],
         "dispositivos": [
             {
                 "descricao": "Oferecer, trocar, disponibilizar, transmitir, distribuir, publicar ou divulgar - ECA (Lei nº 8.069/90), art. 241-A",
@@ -485,12 +558,57 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241b"
             },
             {
+                "descricao": "Simular participação de criança ou adolescente em cena de sexo explícito ou pornográfica - ECA (Lei nº 8.069/90), art. 241-C",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241c"
+            },
+            {
+                "descricao": "Aliciar, assediar, instigar ou constranger criança por meio de comunicação - ECA (Lei nº 8.069/90), art. 241-D",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241d"
+            },
+            {
                 "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211, de 17 de setembro de 2025",
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15211.htm"
             }
         ],
         "aspecto": "Violação de Política",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A investigação deve distinguir produção, montagem/simulação, divulgação, aquisição, posse, armazenamento e aliciamento on-line. A materialidade costuma depender de preservação de arquivos, metadados, URLs, contas, logs de provedor e cadeia de custódia, com prioridade absoluta à proteção da vítima."
+    },
+    {
+        "situacao": "Aliciamento online de criança ou adolescente",
+        "palavrasChave": [
+            "Aliciamento",
+            "Grooming",
+            "Assédio infantil",
+            "Criança",
+            "Adolescente",
+            "Chat",
+            "Aplicativo de mensagem",
+            "Jogo online",
+            "Exploração sexual",
+            "Envio de nudes"
+        ],
+        "referencias": [
+            "ref8",
+            "ref13"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Aliciar, assediar, instigar ou constranger criança por meio de comunicação - ECA (Lei nº 8.069/90), art. 241-D",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241d"
+            },
+            {
+                "descricao": "Estatuto Digital da Criança e do Adolescente - Lei nº 15.211/2025",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm"
+            },
+            {
+                "descricao": "Favorecimento da prostituição ou outra forma de exploração sexual - Código Penal, art. 228",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art228"
+            }
+        ],
+        "aspecto": "Proteção de Vulneráveis, Privacidade, Confidencialidade",
+        "ambito": "Federal",
+        "comentarios": "O aliciamento online deve ser tratado separadamente da mera posse ou divulgação de material, pois a conduta pode ocorrer antes da produção de qualquer arquivo. Evidências relevantes incluem conversas, perfis, convites para migrar de plataforma, pedidos de imagens, promessa de vantagem, ameaça ou tentativa de encontro presencial."
     },
     {
         "situacao": "Pornografia (Divulgação Não Consentida)",
@@ -498,6 +616,9 @@
             "Revenge Porn",
             "Pornografia de Vingança",
             "Nudez"
+        ],
+        "referencias": [
+            "ref13"
         ],
         "dispositivos": [
             {
@@ -510,7 +631,8 @@
             }
         ],
         "aspecto": "Violação de Política, Danos à Reputação",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A divulgação não consentida de cena íntima pode configurar o art. 218-C do Código Penal, sem prejuízo de crimes contra a honra, ameaça, extorsão, perseguição ou violência psicológica, conforme o contexto. Se houver criança ou adolescente, aplicam-se também os dispositivos específicos do ECA."
     },
     {
         "situacao": "Conteúdo pornográfico, violento ou discriminatório",
@@ -586,6 +708,41 @@
         ],
         "aspecto": "Confidencialidade, Integridade",
         "ambito": "Federal"
+    },
+    {
+        "situacao": "Violência política de gênero digital",
+        "palavrasChave": [
+            "Violência política",
+            "Mulher candidata",
+            "Mandato eletivo",
+            "Assédio online",
+            "Humilhação",
+            "Ameaça",
+            "Rede social",
+            "Desinformação eleitoral",
+            "Discriminação de gênero",
+            "Discriminação racial"
+        ],
+        "referencias": [
+            "ref17"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Violência política contra a mulher - Código Eleitoral, art. 326-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm#art326b"
+            },
+            {
+                "descricao": "Lei nº 14.192/2021",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14192.htm"
+            },
+            {
+                "descricao": "Crimes contra a honra na propaganda eleitoral - Código Eleitoral, arts. 324 a 326",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm"
+            }
+        ],
+        "aspecto": "Danos à Reputação, Privacidade, Integridade Psicológica",
+        "ambito": "Federal",
+        "comentarios": "A violência política de gênero em ambiente digital pode ocorrer por assédio, humilhação, perseguição, ameaça ou campanhas coordenadas contra candidata ou detentora de mandato, com menosprezo ou discriminação à condição de mulher, raça, cor ou etnia, e finalidade de dificultar campanha ou mandato."
     },
     {
         "situacao": "Monitoramento de Navegação",
@@ -782,6 +939,9 @@
             "Manipulação",
             "Deepfake"
         ],
+        "referencias": [
+            "ref13"
+        ],
         "dispositivos": [
             {
                 "descricao": "Falsidade ideológica - Código Penal, art. 299",
@@ -801,7 +961,8 @@
             }
         ],
         "aspecto": "Autenticidade, Privacidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Deepfake e manipulação sintética de voz, imagem ou vídeo são normalmente meios de execução, não um tipo penal autônomo geral. O enquadramento depende do uso concreto: fraude, falsidade, crimes contra a honra, pornografia não consentida, exploração sexual de criança ou adolescente, violência psicológica, violência política ou discriminação."
     },
     {
         "situacao": "Fraude Eletrônica",
@@ -815,7 +976,13 @@
             "Chave Pix",
             "Redes sociais",
             "Contatos telefônicos",
-            "Correio eletrônico fraudulento"
+            "Correio eletrônico fraudulento",
+            "Duplicação de dispositivo eletrônico",
+            "Aplicação de internet",
+            "Idoso"
+        ],
+        "referencias": [
+            "ref11"
         ],
         "dispositivos": [
             {
@@ -829,10 +996,147 @@
             {
                 "descricao": "Lei nº 14.155/2021 (alteração do Código Penal)",
                 "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14155.htm"
+            },
+            {
+                "descricao": "Lei nº 15.397/2026 (alteração do Código Penal)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15397.htm"
             }
         ],
         "aspecto": "Autenticidade, Integridade, Privacidade, Não-repúdio, Conformidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 15.397/2026 manteve a fraude eletrônica no art. 171, § 2º-A, com pena de reclusão de 4 a 8 anos e multa, e explicitou hipóteses como duplicação de dispositivo eletrônico ou aplicação de internet. Também revogou o § 5º do art. 171, alteração relevante para a natureza da ação penal em fatos posteriores à publicação da lei."
+    },
+    {
+        "situacao": "Cessão de conta laranja / Fraude bancária",
+        "palavrasChave": [
+            "Conta laranja",
+            "Conta bancária cedida",
+            "Aluguel de conta",
+            "Intermediação financeira ilícita",
+            "Movimentação de recursos ilícitos",
+            "Pix",
+            "Fraude bancária",
+            "Lavagem de dinheiro",
+            "Financiamento de atividade criminosa"
+        ],
+        "referencias": [
+            "ref11"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Cessão de conta laranja - Código Penal, art. 171, § 2º, VII",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Lei nº 15.397/2026 (alteração do Código Penal)",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15397.htm"
+            }
+        ],
+        "aspecto": "Autenticidade, Responsabilização, Conformidade, Não-repúdio",
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 15.397/2026 incluiu no art. 171, § 2º, VII, do Código Penal a conduta de ceder, gratuita ou onerosamente, conta bancária para trânsito de recursos destinados ao financiamento de atividade criminosa ou provenientes dela. É relevante em golpes com Pix, fraudes eletrônicas e esquemas de ocultação da origem de valores."
+    },
+    {
+        "situacao": "Fraudes com criptoativos / ativos virtuais",
+        "palavrasChave": [
+            "Criptoativos",
+            "Ativos virtuais",
+            "Criptomoedas",
+            "Bitcoin",
+            "Exchange falsa",
+            "Carteira digital",
+            "Pirâmide financeira",
+            "Investimento fraudulento",
+            "Lavagem de dinheiro"
+        ],
+        "referencias": [
+            "ref14"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Fraude com a utilização de ativos virtuais, valores mobiliários ou ativos financeiros - Código Penal, art. 171-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171a"
+            },
+            {
+                "descricao": "Lei nº 14.478/2022 (prestadoras de serviços de ativos virtuais)",
+                "url": "https://www.planalto.gov.br/CCIVIL_03/_Ato2019-2022/2022/Lei/L14478.htm"
+            },
+            {
+                "descricao": "Lavagem de dinheiro - Lei nº 9.613/1998",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+            }
+        ],
+        "aspecto": "Autenticidade, Integridade, Responsabilização, Conformidade",
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 14.478/2022 incluiu o art. 171-A no Código Penal e trouxe obrigações para prestadoras de serviços de ativos virtuais. A análise deve preservar endereços de carteira, hashes de transação, exchanges envolvidas, comunicações de oferta, promessas de rentabilidade e eventual estrutura de pirâmide ou lavagem de dinheiro."
+    },
+    {
+        "situacao": "Clonagem de WhatsApp / Sequestro de conta",
+        "palavrasChave": [
+            "WhatsApp clonado",
+            "Sequestro de conta",
+            "Código de verificação",
+            "Engenharia social",
+            "Mensageiro instantâneo",
+            "Conta comprometida",
+            "Golpe do contato",
+            "MFA",
+            "Autenticação"
+        ],
+        "referencias": [
+            "ref11"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Fraude eletrônica - Código Penal, art. 171, § 2º-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
+            },
+            {
+                "descricao": "Falsa identidade - Código Penal, art. 307",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art307"
+            }
+        ],
+        "aspecto": "Autenticidade, Confidencialidade, Responsabilização",
+        "ambito": "Federal",
+        "comentarios": "O sequestro de contas de mensageria costuma ocorrer por engenharia social, obtenção de código de verificação, SIM swap ou abuso de sessão autenticada. Pode ser meio para fraude contra contatos da vítima, extorsão, coleta de dados ou falsa identidade."
+    },
+    {
+        "situacao": "SIM swap / Clonagem de chip",
+        "palavrasChave": [
+            "SIM swap",
+            "Clonagem de chip",
+            "Portabilidade fraudulenta",
+            "Linha telefônica",
+            "Código SMS",
+            "Autenticação de dois fatores",
+            "Recuperação de senha",
+            "Operadora",
+            "Conta bancária"
+        ],
+        "referencias": [
+            "ref11"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Fraude eletrônica - Código Penal, art. 171, § 2º-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Furto mediante fraude por meio de dispositivo eletrônico - Código Penal, art. 155, § 4º-B",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            },
+            {
+                "descricao": "Falsa identidade - Código Penal, art. 307",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art307"
+            }
+        ],
+        "aspecto": "Autenticidade, Confidencialidade, Responsabilização",
+        "ambito": "Federal",
+        "comentarios": "SIM swap envolve transferência, clonagem ou controle fraudulento de linha telefônica para interceptar códigos de autenticação e recuperar contas. A investigação deve correlacionar eventos da operadora, troca de chip, IMEI, IPs, horários de login, reset de senha e transações subsequentes."
     },
     {
         "situacao": "Furto Cibernético",
@@ -842,7 +1146,15 @@
             "Clonagem de cartão",
             "Burlar vigilância",
             "Violação de mecanismo de segurança",
-            "Programa malicioso"
+            "Programa malicioso",
+            "Celular",
+            "Computador",
+            "Tablet",
+            "Dispositivo eletrônico",
+            "Dispositivo informático"
+        ],
+        "referencias": [
+            "ref11"
         ],
         "dispositivos": [
             {
@@ -852,10 +1164,15 @@
             {
                 "descricao": "Causas de aumento de pena - Código Penal, art. 155, § 4º-C",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            },
+            {
+                "descricao": "Furto de aparelho celular, computador, tablet ou dispositivo eletrônico/informático semelhante - Código Penal, art. 155, § 6º, II",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
             }
         ],
         "aspecto": "Integridade, Confidencialidade, Disponibilidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 15.397/2026 majorou o furto mediante fraude por meio eletrônico ou informático para reclusão de 4 a 10 anos e multa, e incluiu hipótese específica para subtração de celular, computador, tablet ou dispositivo eletrônico/informático semelhante."
     },
     {
         "situacao": "Crimes contra Infraestruturas Críticas de Informação",
@@ -867,7 +1184,13 @@
             "Telecomunicações",
             "Transporte",
             "Água",
-            "Saúde"
+            "Saúde",
+            "Serviços essenciais",
+            "Cabos de dados",
+            "Equipamentos de telecomunicações"
+        ],
+        "referencias": [
+            "ref11"
         ],
         "dispositivos": [
             {
@@ -879,12 +1202,25 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art265"
             },
             {
+                "descricao": "Furto de bens que comprometam serviços essenciais - Código Penal, art. 155, § 4º, V",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art155"
+            },
+            {
+                "descricao": "Roubo de bens que comprometam serviços públicos essenciais - Código Penal, art. 157, § 1º-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art157"
+            },
+            {
+                "descricao": "Interrupção ou perturbação de serviço por dano a equipamento de telecomunicações - Código Penal, art. 266, § 2º, II",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art266"
+            },
+            {
                 "descricao": "Invasão de dispositivo informático - Código Penal, art. 154-A",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art154a"
             }
         ],
         "aspecto": "Disponibilidade, Integridade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A Lei nº 15.397/2026 reforçou a tutela penal de serviços essenciais e telecomunicações ao prever qualificadoras para furto e roubo de bens que comprometam o funcionamento de órgãos ou serviços essenciais, além de pena em dobro no art. 266 quando houver subtração, dano ou destruição de equipamento de telecomunicações."
     },
     {
         "situacao": "Vazamento de Dados Genéticos / Biometria",
@@ -927,10 +1263,6 @@
         ],
         "dispositivos": [
             {
-                "descricao": "Marco Legal da IA no Brasil - PL 2.338/2023 (em tramitação)",
-                "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338724"
-            },
-            {
                 "descricao": "Estelionato - Código Penal, art. 171",
                 "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
             },
@@ -944,7 +1276,8 @@
             }
         ],
         "aspecto": "Autenticidade, Privacidade, Violação de Política, Transparência, Responsabilização, Finalidade/Legitimidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "No regime penal vigente, inteligência artificial tende a ser meio de execução ou elemento probatório, não tipo penal autônomo geral. O enquadramento deve partir do resultado e da finalidade: fraude, falsidade, crimes contra honra, violação de dados, discriminação, pornografia não consentida, exploração sexual de crianças e adolescentes ou violência psicológica."
     },
     {
         "situacao": "Extorsão digital",
@@ -963,7 +1296,8 @@
             }
         ],
         "aspecto": "Privacidade, Autenticidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Extorsão digital abrange ameaças de divulgação de dados, imagens íntimas, segredos, acessos ou informações obtidas por invasão, engenharia social ou relacionamento prévio. Quando houver exigência de pagamento em criptoativos, Pix ou conta de terceiro, também devem ser preservadas evidências financeiras e de titularidade das contas usadas."
     },
     {
         "situacao": "Assédio Sexual",
@@ -997,6 +1331,10 @@
             "Bitcoin",
             "Anonimato"
         ],
+        "referencias": [
+            "ref14",
+            "ref15"
+        ],
         "dispositivos": [
             {
                 "descricao": "Tráfico de drogas - Lei nº 11.343/2006, art. 33",
@@ -1020,7 +1358,48 @@
             }
         ],
         "aspecto": "Violação de Política, Danos à Reputação, Confidencialidade",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "A venda de produtos ilícitos em marketplaces virtuais pode envolver tráfico, comércio ilegal de armas, dados pessoais, organização criminosa, lavagem de dinheiro e uso de criptoativos. A Lei nº 15.358/2026 também é relevante quando houver organização criminosa ultraviolenta, uso sofisticado de tecnologia ou ataque a serviços e infraestruturas essenciais."
+    },
+    {
+        "situacao": "Apostas online fraudulentas / Manipulação em plataformas digitais",
+        "palavrasChave": [
+            "Apostas online",
+            "Bet",
+            "Apostas de quota fixa",
+            "Manipulação de resultado",
+            "Corrupção esportiva",
+            "Operador irregular",
+            "Conta de pagamento",
+            "Transação de aposta",
+            "Fraude em aposta",
+            "Evento virtual"
+        ],
+        "referencias": [
+            "ref16",
+            "ref15"
+        ],
+        "dispositivos": [
+            {
+                "descricao": "Apostas de quota fixa - Lei nº 14.790/2023",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14790.htm"
+            },
+            {
+                "descricao": "Bloqueio de contas e transações de operador irregular - Lei nº 14.790/2023, art. 21-A",
+                "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14790.htm#art21a"
+            },
+            {
+                "descricao": "Estelionato - Código Penal, art. 171",
+                "url": "https://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848.htm#art171"
+            },
+            {
+                "descricao": "Lavagem de dinheiro - Lei nº 9.613/1998",
+                "url": "https://www.planalto.gov.br/ccivil_03/leis/l9613.htm"
+            }
+        ],
+        "aspecto": "Conformidade, Integridade, Responsabilização",
+        "ambito": "Federal",
+        "comentarios": "Fraudes em apostas online podem envolver operador não autorizado, manipulação de resultados, uso de contas de terceiros, lavagem de dinheiro, fraude contra apostadores ou exploração irregular de loteria de apostas de quota fixa. A Lei nº 15.358/2026 alterou a Lei nº 14.790/2023 para prever bloqueios relacionados a operadores irregulares."
     },
     {
         "situacao": "Fraudes em certificados digitais / assinaturas eletrônicas falsas",
@@ -1058,7 +1437,8 @@
             }
         ],
         "aspecto": "Autenticidade, Integridade, Não Repúdio",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Fraudes com certificados digitais e assinaturas eletrônicas devem distinguir comprometimento técnico da chave privada, emissão indevida, uso de documento falso, falsa declaração de identidade e fraude patrimonial. Evidências importantes incluem cadeia de certificação, logs da autoridade certificadora, dispositivo criptográfico, IPs, horários e atos assinados."
     },
     {
         "situacao": "Espionagem industrial / concorrencial",
@@ -1101,7 +1481,8 @@
             }
         ],
         "aspecto": "Confidencialidade, Integridade, Violação de Política",
-        "ambito": "Federal"
+        "ambito": "Federal",
+        "comentarios": "Espionagem industrial ou concorrencial em ambiente digital pode combinar acesso indevido, violação de segredo, interceptação, abuso de credenciais internas, exfiltração de dados e concorrência desleal. É importante separar segredo empresarial efetivamente protegido de informação pública ou obtida por meios lícitos."
     },
     {
         "situacao": "Violência Psicológica contra a Mulher",
@@ -1124,8 +1505,9 @@
                 "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848.htm#art147b"
             }
         ],
-        "aspecto": "N/A",
-        "ambito": "Federal"
+        "aspecto": "Privacidade, Integridade Psicológica",
+        "ambito": "Federal",
+        "comentarios": "Em ambiente digital, a violência psicológica contra a mulher pode ocorrer por ameaças, humilhação pública, chantagem, controle de contas, vigilância, isolamento social, exposição de intimidade ou manipulação de imagens. O art. 147-B pode concorrer com ameaça, perseguição, extorsão, crimes contra honra ou divulgação de cena íntima."
     },
     {
         "situacao": "Favorecimento da prostituição digital",
@@ -1140,7 +1522,6 @@
             "Sites de acompanhantes",
             "Cafetinagem digital"
         ],
-        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Favorecimento da prostituição ou outra forma de exploração sexual - Código Penal, art. 228",
@@ -1164,7 +1545,6 @@
             "Imagens",
             "Vídeos"
         ],
-        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Violação de direito autoral - Lei nº 9.610/1998, art. 184",
@@ -1191,7 +1571,6 @@
             "Discriminação religiosa",
             "Intolerância religiosa"
         ],
-        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Ultraje a culto e impedimento ou perturbação de ato a ele relativo - Código Penal, art. 208",
@@ -1214,7 +1593,6 @@
             "Sextorsão",
             "Refém virtual"
         ],
-        "referencias": [],
         "dispositivos": [
             {
                 "descricao": "Estupro - Código Penal, art. 213",

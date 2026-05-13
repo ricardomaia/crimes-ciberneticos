@@ -62,6 +62,55 @@
             "url": "https://jus.com.br/artigos/57258/baleia-azul-um-jogo-varios-crimes",
             "tipo": "artigo",
             "ambito": "tecnico"
+        },
+        "ref11": {
+            "titulo": "Lei nº 15.397/2026",
+            "descricao": "Altera o Código Penal para majorar penas de furto, roubo, estelionato, receptação e interrupção ou perturbação de serviço informático, telemático ou de informação de utilidade pública, além de tipificar a cessão de conta laranja.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15397.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref12": {
+            "titulo": "Lei nº 14.811/2024",
+            "descricao": "Institui medidas de proteção à criança e ao adolescente contra violência em estabelecimentos educacionais e tipifica a intimidação sistemática e a intimidação sistemática virtual.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14811.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref13": {
+            "titulo": "Estatuto Digital da Criança e do Adolescente",
+            "descricao": "Lei nº 15.211/2025, que dispõe sobre a proteção de crianças e adolescentes em ambientes digitais.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref14": {
+            "titulo": "Lei nº 14.478/2022 - Ativos virtuais",
+            "descricao": "Dispõe sobre prestadoras de serviços de ativos virtuais e prevê o crime de fraude com utilização de ativos virtuais, valores mobiliários ou ativos financeiros.",
+            "url": "https://www.planalto.gov.br/CCIVIL_03/_Ato2019-2022/2022/Lei/L14478.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref15": {
+            "titulo": "Lei nº 15.358/2026 - Marco Legal do Combate ao Crime Organizado",
+            "descricao": "Tipifica crimes relacionados a organização criminosa ultraviolenta, grupo paramilitar ou milícia privada e inclui hipóteses com uso de recursos tecnológicos, sistemas de vigilância, criptografia avançada e ataques a serviços essenciais.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2026/Lei/L15358.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref16": {
+            "titulo": "Lei nº 14.790/2023 - Apostas de quota fixa",
+            "descricao": "Dispõe sobre apostas de quota fixa, requisitos de operação autorizada, integridade esportiva, pagamentos e prevenção à exploração irregular de apostas.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14790.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
+        },
+        "ref17": {
+            "titulo": "Lei nº 14.192/2021 - Violência política contra a mulher",
+            "descricao": "Estabelece normas para prevenir, reprimir e combater a violência política contra a mulher e altera o Código Eleitoral.",
+            "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14192.htm",
+            "tipo": "legislacao",
+            "ambito": "federal"
         }
     },
     "categorias": {
